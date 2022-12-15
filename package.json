@@ -1,0 +1,32 @@
+{
+  "name": "itihad-web-backend",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Website for itihad built by Nodejs (apollo, prisma, graphql) and mySql DB.",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayas-faraj/itihad-backend.git"
+  },
+  "author": "Mayas Faraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayas-faraj/itihad-backend/issues"
+  },
+  "homepage": "https://github.com/mayas-faraj/itihad-backend#readme",
+  "dependencies": {
+    "@apollo/server": "^4.2.2",
+    "@prisma/client": "^4.7.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.7.1"
+  }
+}

@@ -1,0 +1,320 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model country {
+  id             Int              @id @default(autoincrement())
+  locale_country locale_country[]
+}
+
+model category {
+  id              Int               @id @default(autoincrement())
+  slug            String            @unique(map: "slug") @db.VarChar(100)
+  img_src         String?           @db.VarChar(255)
+  img_alt         String?           @db.VarChar(80)
+  is_disabled     Int?              @default(0)
+  locale_category locale_category[]
+  post            post[]
+}
+
+model company {
+  id             Int              @id @default(autoincrement())
+  tel            String?          @db.VarChar(100)
+  fax            String?          @db.VarChar(100)
+  email          String?          @db.VarChar(100)
+  website        String?          @db.VarChar(255)
+  address        String?          @db.VarChar(500)
+  country_id     Int
+  logo_src       String?          @db.VarChar(255)
+  is_disabled    Int?             @default(0)
+  display_order  Int?             @default(0)
+  locale_company locale_company[]
+}
+
+model contact {
+  id        Int     @id @default(autoincrement())
+  name      String? @unique(map: "name") @db.VarChar(200)
+  icon      String? @db.VarChar(100)
+  link      String? @db.VarChar(250)
+  is_social Int?    @default(0)
+}
+
+model event {
+  post_id    Int       @id
+  level_id   Int
+  started_on DateTime? @db.DateTime(0)
+  end_on     DateTime? @db.DateTime(0)
+  post       post      @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "event_ibfk_1")
+  level      level     @relation(fields: [level_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "event_ibfk_2")
+
+  @@index([level_id], map: "level_id")
+}
+
+model level {
+  id           Int            @id @default(autoincrement())
+  event        event[]
+  locale_level locale_level[]
+}
+
+model locale {
+  id                Int                 @id @default(autoincrement())
+  name              String?             @unique(map: "name") @db.Char(5)
+  currency_symbol   String?             @unique(map: "currency_symbol") @db.VarChar(10)
+  currency_rate     Float?              @default(1) @db.Float
+  date_format       String?             @db.VarChar(20)
+  locale_category   locale_category[]
+  locale_company    locale_company[]
+  locale_country    locale_country[]
+  locale_level      locale_level[]
+  locale_member     locale_member[]
+  locale_menu_item  locale_menu_item[]
+  locale_post       locale_post[]
+  locale_post_image locale_post_image[]
+}
+
+model locale_category {
+  id          Int      @id @default(autoincrement())
+  category_id Int
+  locale_id   Int
+  name        String   @db.VarChar(100)
+  category    category @relation(fields: [category_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_category_ibfk_1")
+  locale      locale   @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_category_ibfk_2")
+
+  @@index([category_id], map: "category_id")
+  @@index([locale_id], map: "locale_id")
+}
+
+model locale_company {
+  id          Int     @id @default(autoincrement())
+  locale_id   Int
+  company_id  Int
+  name        String  @db.VarChar(100)
+  excerpt     String? @db.VarChar(500)
+  representer String? @db.VarChar(100)
+  company     company @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_company_ibfk_1")
+  locale      locale  @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_company_ibfk_2")
+
+  @@index([company_id], map: "company_id")
+  @@index([locale_id], map: "locale_id")
+}
+
+model locale_country {
+  id         Int     @id @default(autoincrement())
+  country_id Int
+  locale_id  Int
+  name       String  @db.VarChar(100)
+  country    country @relation(fields: [country_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_country_ibfk_1")
+  locale     locale  @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_country_ibfk_2")
+
+  @@index([locale_id], map: "locale_id")
+  @@index([country_id], map: "country_id")
+}
+
+model locale_member {
+  id        Int     @id @default(autoincrement())
+  locale_id Int
+  member_id Int
+  name      String  @db.VarChar(100)
+  excerpt   String? @db.VarChar(500)
+  company   String? @db.VarChar(100)
+  position  String? @db.VarChar(100)
+  member    member  @relation(fields: [member_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_member_ibfk_1")
+  locale    locale  @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_member_ibfk_2")
+
+  @@index([locale_id], map: "locale_id")
+  @@index([member_id], map: "member_id")
+}
+
+model locale_menu_item {
+  id           Int       @id @default(autoincrement())
+  menu_item_id Int
+  locale_id    Int
+  title        String    @db.VarChar(200)
+  menu_item    menu_item @relation(fields: [menu_item_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_menu_item_ibfk_1")
+  locale       locale    @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_menu_item_ibfk_2")
+
+  @@index([locale_id], map: "locale_id")
+  @@index([menu_item_id], map: "menu_item_id")
+}
+
+model locale_post {
+  id          Int     @id @default(autoincrement())
+  post_id     Int
+  locale_id   Int
+  title       String  @db.VarChar(200)
+  excerpt     String? @db.VarChar(500)
+  content     String? @db.Text
+  button_text String? @db.VarChar(100)
+  post        post    @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_post_ibfk_1")
+  locale      locale  @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_post_ibfk_2")
+
+  @@index([locale_id], map: "locale_id")
+  @@index([post_id], map: "post_id")
+}
+
+model locale_post_image {
+  id            Int        @id @default(autoincrement())
+  locale_id     Int
+  post_image_id Int
+  title         String?    @db.VarChar(100)
+  post_image    post_image @relation(fields: [post_image_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_post_image_ibfk_1")
+  locale        locale     @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_post_image_ibfk_2")
+
+  @@index([locale_id], map: "locale_id")
+  @@index([post_image_id], map: "post_image_id")
+}
+
+model member {
+  id            Int             @id @default(autoincrement())
+  tel           String?         @db.VarChar(100)
+  fax           String?         @db.VarChar(100)
+  email         String?         @db.VarChar(100)
+  website       String?         @db.VarChar(255)
+  address       String?         @db.VarChar(500)
+  country_id    Int
+  image_src     String?         @db.VarChar(255)
+  is_disabled   Int?            @default(0)
+  display_order Int?            @default(0)
+  locale_member locale_member[]
+}
+
+model menu {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique(map: "name") @db.VarChar(100)
+  menu_item menu_item[]
+}
+
+model menu_item {
+  id               Int                @id @default(autoincrement())
+  parent_id        Int?
+  menu_id          Int
+  post_id          Int?
+  icon             String?            @db.VarChar(300)
+  item_order       Int?               @default(0)
+  locale_menu_item locale_menu_item[]
+  menu_item        menu_item?         @relation("menu_itemTomenu_item", fields: [parent_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "menu_item_ibfk_1")
+  other_menu_item  menu_item[]        @relation("menu_itemTomenu_item")
+  menu             menu               @relation(fields: [menu_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "menu_item_ibfk_2")
+  post             post?              @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "menu_item_ibfk_3")
+
+  @@index([menu_id], map: "menu_id")
+  @@index([parent_id], map: "parent_id")
+  @@index([post_id], map: "post_id")
+}
+
+model messages {
+  id      Int       @id @default(autoincrement())
+  name    String?   @db.VarChar(200)
+  email   String?   @db.VarChar(80)
+  phone   String?   @db.VarChar(30)
+  message String?   @db.Text
+  sent_on DateTime? @default(now()) @db.DateTime(0)
+}
+
+model post {
+  id                         Int           @id @default(autoincrement())
+  category_id                Int
+  type_id                    Int
+  slug                       String        @unique(map: "slug") @db.VarChar(250)
+  description                String?       @db.VarChar(440)
+  button_link                String?       @db.VarChar(250)
+  feature_image_src          String?       @db.VarChar(250)
+  feature_image_alt          String?       @db.VarChar(220)
+  og_image_src               String?       @db.VarChar(250)
+  created_on                 DateTime?     @default(now()) @db.DateTime(0)
+  created_by                 Int
+  updated_by                 Int?
+  is_disabled                Int?          @default(0)
+  display_order              Int?          @default(0)
+  event                      event?
+  locale_post                locale_post[]
+  menu_item                  menu_item[]
+  category                   category      @relation(fields: [category_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "post_ibfk_1")
+  type                       type          @relation(fields: [type_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "post_ibfk_2")
+  user_post_created_byTouser user          @relation("post_created_byTouser", fields: [created_by], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "post_ibfk_3")
+  user_post_updated_byTouser user?         @relation("post_updated_byTouser", fields: [updated_by], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "post_ibfk_4")
+  post_image                 post_image[]
+
+  @@index([category_id], map: "category_id")
+  @@index([created_by], map: "created_by")
+  @@index([type_id], map: "type_id")
+  @@index([updated_by], map: "updated_by")
+}
+
+model post_image {
+  id                Int                 @id @default(autoincrement())
+  img_src           String              @db.VarChar(255)
+  img_alt           String              @db.VarChar(80)
+  post_id           Int?
+  locale_post_image locale_post_image[]
+  post              post?               @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "post_image_ibfk_1")
+
+  @@index([post_id], map: "post_id")
+}
+
+model role {
+  id   Int    @id @default(autoincrement())
+  name String @unique(map: "name") @db.VarChar(100)
+  user user[]
+}
+
+model setting {
+  id      Int     @id @default(autoincrement())
+  user_id Int?
+  name    String? @unique(map: "name") @db.VarChar(200)
+  value   String? @db.Text
+  user    user?   @relation(fields: [user_id], references: [id], onDelete: Cascade, map: "setting_ibfk_1")
+
+  @@index([user_id], map: "user_id")
+}
+
+model token {
+  id         Int       @id @default(autoincrement())
+  user_id    Int
+  value      String?   @db.Char(36)
+  created_on DateTime? @default(now()) @db.DateTime(0)
+  user       user      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "token_ibfk_1")
+
+  @@index([user_id], map: "user_id")
+}
+
+model type {
+  id   Int    @id @default(autoincrement())
+  name String @unique(map: "name") @db.VarChar(100)
+  post post[]
+}
+
+model user {
+  id                         Int       @id @default(autoincrement())
+  user_login                 String    @unique(map: "user_login") @db.VarChar(50)
+  user_name                  String?   @db.VarChar(50)
+  email                      String?   @db.VarChar(50)
+  password                   String    @db.VarChar(50)
+  role_id                    Int
+  is_disabled                Int?      @default(0)
+  created_on                 DateTime? @default(now()) @db.DateTime(0)
+  post_post_created_byTouser post[]    @relation("post_created_byTouser")
+  post_post_updated_byTouser post[]    @relation("post_updated_byTouser")
+  setting                    setting[]
+  token                      token[]
+  role                       role      @relation(fields: [role_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "user_ibfk_1")
+
+  @@index([role_id], map: "role_id")
+}
+
+model locale_level {
+  id        Int    @id @default(autoincrement())
+  level_id  Int
+  locale_id Int
+  name      String @db.VarChar(100)
+  level     level  @relation(fields: [level_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_level_ibfk_1")
+  locale    locale @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_level_ibfk_2")
+
+  @@index([level_id], map: "level_id")
+  @@index([locale_id], map: "locale_id")
+}
