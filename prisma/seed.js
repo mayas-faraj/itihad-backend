@@ -4,6 +4,7 @@ const prismaClient = new PrismaClient();
 let result;
 
 // locale table
+/*
 result = await prismaClient.locale.createMany({
   data: [
     { name: 'en-US' },
@@ -419,10 +420,10 @@ console.log(result);
 // level table
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "national",
           locale: {
             connect: {
               name: 'en-US'
@@ -430,7 +431,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
+          name: "قطري",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -445,10 +446,10 @@ console.log(result);
 
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "arab",
           locale: {
             connect: {
               name: 'en-US'
@@ -456,7 +457,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
+          name: "عربي",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -471,10 +472,10 @@ console.log(result);
 
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "national development",
           locale: {
             connect: {
               name: 'en-US'
@@ -482,7 +483,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
+          name: "قطري تنموي",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -497,10 +498,10 @@ console.log(result);
 
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "regional",
           locale: {
             connect: {
               name: 'en-US'
@@ -508,7 +509,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
+          name: "اقليمي",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -523,10 +524,10 @@ console.log(result);
 
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "regional development",
           locale: {
             connect: {
               name: 'en-US'
@@ -534,7 +535,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
+          name: "اقليمي تنموي",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -549,10 +550,10 @@ console.log(result);
 
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "international",
           locale: {
             connect: {
               name: 'en-US'
@@ -560,7 +561,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
+          name: "دولي",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -575,10 +576,10 @@ console.log(result);
 
 result = await prismaClient.level.create({
   data: {
-    locale_country: {
+    locale_level: {
       create: [
         {
-          name: "xxx",
+          name: "international development",
           locale: {
             connect: {
               name: 'en-US'
@@ -586,85 +587,7 @@ result = await prismaClient.level.create({
           }
         },
         {
-          name: "yyy",
-          locale: {
-            connect: {
-              name: 'ar-SY'
-            }
-          }
-        }
-      ]
-    }
-  }
-});
-console.log(result);
-
-result = await prismaClient.level.create({
-  data: {
-    locale_country: {
-      create: [
-        {
-          name: "xxx",
-          locale: {
-            connect: {
-              name: 'en-US'
-            }
-          }
-        },
-        {
-          name: "yyy",
-          locale: {
-            connect: {
-              name: 'ar-SY'
-            }
-          }
-        }
-      ]
-    }
-  }
-});
-console.log(result);
-
-result = await prismaClient.level.create({
-  data: {
-    locale_country: {
-      create: [
-        {
-          name: "xxx",
-          locale: {
-            connect: {
-              name: 'en-US'
-            }
-          }
-        },
-        {
-          name: "yyy",
-          locale: {
-            connect: {
-              name: 'ar-SY'
-            }
-          }
-        }
-      ]
-    }
-  }
-});
-console.log(result);
-
-result = await prismaClient.level.create({
-  data: {
-    locale_country: {
-      create: [
-        {
-          name: "xxx",
-          locale: {
-            connect: {
-              name: 'en-US'
-            }
-          }
-        },
-        {
-          name: "yyy",
+          name: "دولي تنموي",
           locale: {
             connect: {
               name: 'ar-SY'
@@ -684,7 +607,7 @@ result = await prismaClient.user.createMany({
       user_login: "admin",
       user_name: "administrator",
       email: "info@arabindustries.com",
-      password: "123"
+      password: "123",
       is_admin: 1
     },
     {
@@ -697,3 +620,30 @@ result = await prismaClient.user.createMany({
 });
 console.log(result);
 
+// contact table
+result = await prismaClient.contact.createMany({
+  data: [
+    { name: 'linkedin', icon: 'LinkedIn', is_social: 1, link: 'https://linkedin.com' },
+    { name: 'twitter', icon: 'Twitter', is_social: 1, link: 'https://twitter.com' },
+    { name: 'facebook', icon: 'Facebook', is_social: 1, link: 'https://facebook.com' },
+    { name: 'email', icon: 'Email', is_social: 0, link: 'mailto:info@arabengineeringindustries.org ' }
+  ]
+});
+console.log(result);
+
+// contact table
+result = await prismaClient.setting.createMany({
+  data: [
+    { name: 'logo', value: '/assets/imgs/logo.png'},
+    { name: 'slider-interval', value: '5000'}
+  ]
+});
+console.log(result);
+*/
+
+// company table
+result = await prismaClient.company.create({
+  data: {
+    
+  }
+});

@@ -257,12 +257,6 @@ model post_image {
   @@index([post_id], map: "post_id")
 }
 
-model role {
-  id   Int    @id @default(autoincrement())
-  name String @unique(map: "name") @db.VarChar(100)
-  user user[]
-}
-
 model setting {
   id      Int     @id @default(autoincrement())
   user_id Int?
@@ -295,16 +289,13 @@ model user {
   user_name                  String?   @db.VarChar(50)
   email                      String?   @db.VarChar(50)
   password                   String    @db.VarChar(50)
-  role_id                    Int
+  is_admin                   Int?      @default(0)
   is_disabled                Int?      @default(0)
   created_on                 DateTime? @default(now()) @db.DateTime(0)
   post_post_created_byTouser post[]    @relation("post_created_byTouser")
   post_post_updated_byTouser post[]    @relation("post_updated_byTouser")
   setting                    setting[]
   token                      token[]
-  role                       role      @relation(fields: [role_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "user_ibfk_1")
-
-  @@index([role_id], map: "role_id")
 }
 
 model locale_level {
