@@ -84,7 +84,7 @@ CREATE TABLE post (
   category_id INT NOT NULL,
   type_id INT NOT NULL,
 	slug VARCHAR(250) NOT NULL,
-	description VARCHAR(440),
+	description VARCHAR(1000),
   button_link VARCHAR(250),
 	feature_image_src VARCHAR(250),
 	feature_image_alt VARCHAR(220),
@@ -92,6 +92,7 @@ CREATE TABLE post (
 	created_on DATETIME default Now(),
   created_by INT NOT NULL,
   updated_by INT,
+  read_count INT DEFAULT 0,
   is_disabled INT DEFAULT 0,
   display_order INT DEFAULT 0,
 	PRIMARY KEY (id),
@@ -107,7 +108,7 @@ CREATE TABLE locale_post (
   post_id INT NOT NULL,
   locale_id INT NOT NULL,
 	title VARCHAR(200) NOT NULL,
-  excerpt VARCHAR(500),
+  excerpt VARCHAR(1500),
   content text,
   button_text VARCHAR(100),
   PRIMARY KEY (id),
@@ -130,16 +131,6 @@ CREATE TABLE locale_level (
   FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
 );
 
-CREATE TABLE event (
-  post_id INT,
-  level_id INT NOT NULL,
-  started_on DATETIME,
-  end_on DATETIME,
-  PRIMARY KEY (post_id),
-  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE,
-  FOREIGN KEY (level_id) REFERENCES level(id)
-);
-
 CREATE TABLE post_image (
 	id INT AUTO_INCREMENT,
 	img_src VARCHAR(255) NOT NULL,
@@ -159,6 +150,33 @@ CREATE TABLE locale_post_image (
 	PRIMARY KEY (id)	
 );
 
+CREATE TABLE event (
+  post_id INT,
+  started_on DATETIME,
+  end_on DATETIME,
+  PRIMARY KEY (post_id),
+  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE
+);
+
+CREATE TABLE activity (
+  post_id INT,
+  level_id INT NOT NULL,
+  started_on DATETIME,
+  end_on DATETIME,
+  PRIMARY KEY (post_id),
+  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE,
+  FOREIGN KEY (level_id) REFERENCES level(id)
+);
+
+
+CREATE TABLE highlight (
+  post_id INT,
+  started_on DATETIME,
+  end_on DATETIME,
+  PRIMARY KEY (post_id),
+  FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE
+);
+
 CREATE TABLE member (
 	id INT AUTO_INCREMENT,
   tel VARCHAR(100),
@@ -170,6 +188,7 @@ CREATE TABLE member (
   image_src VARCHAR(255),
   is_disabled INT DEFAULT 0,
   display_order INT DEFAULT 0,
+	FOREIGN KEY (country_id) REFERENCES country(id), 
 	PRIMARY KEY (id)
 );
 
@@ -178,7 +197,7 @@ CREATE TABLE locale_member (
 	locale_id INT NOT NULL,
 	member_id INT NOT NULL,
 	name VARCHAR(100) NOT NULL,
-  excerpt VARCHAR(500),
+  excerpt VARCHAR(1000),
   company VARCHAR(100),
   position VARCHAR(100), 
 	FOREIGN KEY (member_id) REFERENCES member(id) ON DELETE CASCADE,
@@ -197,6 +216,7 @@ CREATE TABLE company (
   logo_src VARCHAR(255),
   is_disabled INT DEFAULT 0,
   display_order INT DEFAULT 0,
+	FOREIGN KEY (country_id) REFERENCES country(id), 
 	PRIMARY KEY (id)
 );
 
@@ -205,7 +225,7 @@ CREATE TABLE locale_company (
 	locale_id INT NOT NULL,
 	company_id INT NOT NULL,
 	name VARCHAR(100) NOT NULL,
-  excerpt VARCHAR(500),
+  excerpt VARCHAR(2000),
   representer VARCHAR(100), 
 	FOREIGN KEY (company_id) REFERENCES company(id) ON DELETE CASCADE,
 	FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
