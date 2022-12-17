@@ -51,18 +51,14 @@ model contact {
 
 model event {
   post_id    Int       @id
-  level_id   Int
   started_on DateTime? @db.DateTime(0)
   end_on     DateTime? @db.DateTime(0)
   post       post      @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "event_ibfk_1")
-  level      level     @relation(fields: [level_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "event_ibfk_2")
-
-  @@index([level_id], map: "level_id")
 }
 
 model level {
   id           Int            @id @default(autoincrement())
-  event        event[]
+  activity     activity[]
   locale_level locale_level[]
 }
 
@@ -152,7 +148,7 @@ model locale_post {
   post_id     Int
   locale_id   Int
   title       String  @db.VarChar(200)
-  excerpt     String? @db.VarChar(1000)
+  excerpt     String? @db.VarChar(1500)
   content     String? @db.Text
   button_text String? @db.VarChar(100)
   post        post    @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_post_ibfk_1")
@@ -229,7 +225,7 @@ model post {
   category_id                Int
   type_id                    Int
   slug                       String        @unique(map: "slug") @db.VarChar(250)
-  description                String?       @db.VarChar(440)
+  description                String?       @db.VarChar(1000)
   button_link                String?       @db.VarChar(250)
   feature_image_src          String?       @db.VarChar(250)
   feature_image_alt          String?       @db.VarChar(220)
@@ -323,9 +319,13 @@ model locale_level {
 
 model activity {
   post_id    Int       @id
+  level_id   Int
   started_on DateTime? @db.DateTime(0)
   end_on     DateTime? @db.DateTime(0)
   post       post      @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "activity_ibfk_1")
+  level      level     @relation(fields: [level_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "activity_ibfk_2")
+
+  @@index([level_id], map: "level_id")
 }
 
 model highlight {
