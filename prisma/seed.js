@@ -6049,7 +6049,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: '1st-arab-forum-on:-strategic-planning-for-the-development-of-organizational-performance',
+    slug: '1st-arab-forum-on-strategic-planning-for-the-development-of-organizational-performance',
     description: 'Arab House for Administrative Development organizes the forum in Sharm Elsheikh on 16-20/9/2012',
     button_link: 'http://www.arabhous.org/conference_details.php?werash=11&arch=yes',
     locale_post: {
@@ -6111,7 +6111,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'annual-meeting-of-the-arab-sectoral-federations-no.-42',
+    slug: 'annual-meeting-of-the-arab-sectoral-federations-no-6',
     description: 'The meeting presented studies and proposals that were submitted from the federations in the field of quality, maritime transportation, and technology innovation. The General Secretarial of the Arab Council for Economic Unity also presented a unified bylaw for the Arab sectoral federations',
     button_link: '',
     locale_post: {
@@ -8259,7 +8259,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-syrian-bod-members',
+    slug: 'meeting-of-syrian-bod-members-1',
     description: 'The members of the board of AFEI in Syria agreed on supporting the "Euro-Arab Conf. on SMEs", and discussed capacity building offers.',
     locale_post: {
       create: [
@@ -8304,7 +8304,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-syrian-bod-members',
+    slug: 'meeting-of-syrian-bod-members-2',
     description: 'The members of the board of AFEI from Syria discuss topics proposed by the general secretariat for uploading on the AFEI website, and SPC request to set a meeting with members from Syria during the visit of the delegation from Brussels within the framework of the EU Program "In-Service Training".',
     locale_post: {
       create: [
@@ -8345,7 +8345,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-syrian-bod-members',
+    slug: 'meeting-of-syrian-bod-members-3',
     description: 'During their meeting in Damascus, Syrian members of the board in AFEI discussed the Training-of-Trainers program on Intellectual Property Management for SMEs to be conducted by MOET in cooperation with WIPO.',
     locale_post: {
       create: [
@@ -8384,7 +8384,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-syrian-bod-members',
+    slug: 'meeting-of-syrian-bod-members-4',
     description: "Syrian members of the board in AFEI discussed their involvement as employers in various initiatives and programs on the national and int'l levels.",
     locale_post: {
       create: [
@@ -8429,7 +8429,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-syrian-bod-members',
+    slug: 'meeting-of-syrian-bod-members-5',
     description: 'Syrian members of AFEI board discussed the position of the public sector on the feasibility of involving the private sector, and the strategy to support entrepreneurs.',
     locale_post: {
       create: [
@@ -9273,7 +9273,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'arab-economic-forum',
+    slug: 'arab-economic-forum-1',
     description: 'Arab Economic Forum held its session #17 under the patronage of HE the Lebanese Prime Minister and focused on ways to cope with the expected impact of the global financial crisis on the economies of the Arab countries.',
     locale_post: {
       create: [
@@ -9378,7 +9378,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'annual-meeting-of-the-arab-sectoral-federations-no.-38',
+    slug: 'annual-meeting-of-the-arab-sectoral-federations-no-4',
     description: 'Electing Chairmen and Vice-Chairmen for the five divisions of the Arab sectoral federations as recommended by the CAEU committee on developing methods of federations work.',
     locale_post: {
       create: [
@@ -9415,7 +9415,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'annual-meeting-of-the-arab-sectoral-federations-no.-38',
+    slug: 'annual-meeting-of-the-arab-sectoral-federations-no-2',
     description: 'Among the topics discussed in the meeting: the expected role of the private sector in leading the Arab economic cooperation -through the federations- as well as a proposal from AFEI regional office in Cairo to operationalize the Arab Fund for SMEs were discussed.',
     locale_post: {
       create: [
@@ -9458,7 +9458,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'arab-economic-forum',
+    slug: 'arab-economic-forum-2',
     description: 'With high-level participation of leaders as well as senior Arab & international experts and intellectuals, the dialogue in the Forum revolved around the perceptions of the upcoming phase and its political & economic implications.',
     locale_post: {
       create: [
@@ -11795,7 +11795,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'launching-meeting:-the-restructuring-and-modernization-of-the-standardization-system-in-syria',
+    slug: 'launching-meeting-the-restructuring-and-modernization-of-the-standardization-system-in-syria',
     description: 'The meeting identified the main challenges (legislative, administrative, organizational) facing the restructuring of the Standardization system, and presented the transition plan and change management to establish a national standardization system that is oriented towards market and customers and actively participating in standardization activities on the regional and international levels.',
     locale_post: {
       create: [
@@ -11940,7 +11940,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'project-for-setting-the-national-policy-for-science,-technology,-and-innovation-in-syria',
+    slug: 'project-for-setting-the-national-policy-for-science,-technology,-and-innovation-in-syria-1',
     description: 'In March 2010, the Higher Commission for Scientific Research (HCSR) started the implementation of activities within its project for "Setting the national policy for science, technology, and innovation in Syria". AFEI General Secretary participated in meetings and activities of the "Industry sector committee" as a representative of the business sector, and contributed with a paper on the AFEI vision for science, technology, and innovation policy in the engineering sector. The committee presented its proposal which was discussed in a workshop on 23/12/2010 with participation of the AFEI General Secretary and consultant from AFEI Damascus Office.',
     locale_post: {
       create: [
@@ -11982,7 +11982,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'project-for-setting-the-national-policy-for-science,-technology,-and-innovation-in-syria',
+    slug: 'project-for-setting-the-national-policy-for-science,-technology,-and-innovation-in-syria-2',
     description: 'The Higher Commission for Scientific Research (HCSR) continued its project "Setting the national policy for science, technology, and innovation in Syria", and promoted the Scientific Research Information System that it established on its website. A "Scientific, advisory, specialized committee in the industry sector" was established under the umbrella of HCSR, and AFEI General secretary is participating as a representative of the business sector. ',
     locale_post: {
       create: [
@@ -12024,7 +12024,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-egyptian-bod-members',
+    slug: 'meeting-of-egyptian-bod-members-1',
     description: 'In preparation for the upcoming meeting of the AFEI General Assembly, Egyptian members in AFEI held a meeting to discuss the current issues within the federation. The agenda included a discussion on how to implement the new vision of AFEI, a presentation of the new website of AFEI, and a discussion on means for activating AFEI members as well as attracting new members of those supporting the development initiatives.',
     locale_post: {
       create: [
@@ -12078,7 +12078,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'meeting-of-egyptian-bod-members',
+    slug: 'meeting-of-egyptian-bod-members-2',
     description: 'During their meeting in Cairo, Egyptian members of the board in AFEI discussed about the implementation of the AFEI General Assembly resolutions, preparation of the first meeting of the young industrialists, cooperation with the National Accreditation Center in Egypt in accrediting products from the Arab countries as a passport to the global market. Attendees agreed on holding the next general assembly meeting alongside the Calibration and Metrology conference that AFEI is organizing in cooperation with the Arab Federation for Metrology on 15-17/5/2010 in Cairo.',
     locale_post: {
       create: [
@@ -12129,10 +12129,8 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'project-for-setting-the-national-policy-for-science,-technology,-and-innovation-in-syria',
-    description: 'Within the project of Higher Commission for Scientific Research (HCSR) "Setting the national policy for science, technology, and innovation in Syria", the industry sector committee continued its activities and discussed its report titled "Analysis of the status-quo of the industry sector in Syria and future trends" in a workshop on March 2011 which was attended by the AFEI General Secretary and the consultant of AFEI Damascus Office.\n' +
-      'AFEI General Secretary became a member in the work team for "Mechanisms of linking scientific research institutions with the industry and service sectors" as a representative of the business sector, and he offered two contributions: a "proposed mechanism for enhancing the linkages between industry and scientific research", and "Ideas for activating the cooperation between industry and scientific institutions ".\n' +
-      'HCSR continued the project activities with the sectoral committees and work teams, and established an information system for scientific research on its website with the objective of linking scientific research institutions, and strengthen the links and channels between researchers.',
+    slug: 'project-for-setting-the-national-policy-for-science,-technology,-and-innovation-in-syria-3',
+    description: 'Within the project of Higher Commission for Scientific Research (HCSR) "Setting the national policy for science, technology, and innovation in Syria", the industry sector committee continued its activities and discussed its report titled "Analysis of the status-quo of the industry sector in Syria and future trends" in a workshop on March 2011 which was attended by the AFEI General Secretary and the consultant of AFEI Damascus Office.',
     locale_post: {
       create: [
         {
@@ -12856,7 +12854,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'caeu-technical-committee-meeting:-investment-and-trade-promotion-in-the-arab-countries',
+    slug: 'caeu-technical-committee-meeting-investment-and-trade-promotion-in-the-arab-countries-2',
     description: 'The proposed scheme for promoting investment and trade in the Arab countries is meant to allow the private sector to express its needs and opportunities. The CAEU general secretariat prepared the basis and invited private sector organizations and other stakeholders to get involved.',
     locale_post: {
       create: [
@@ -13042,7 +13040,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'annual-meeting-of-the-arab-sectoral-federations-no.-42',
+    slug: 'annual-meeting-of-the-arab-sectoral-federations-no-3',
     description: 'The meeting presented studies and proposals that were submitted from the federations in the field of quality, maritime transportation, and technology innovation. The General Secretarial of the Arab Council for Economic Unity also presented a unified bylaw for the Arab sectoral federations',
     locale_post: {
       create: [
@@ -13089,7 +13087,7 @@ console.log(result);
 result = await prismaClient.post.create(
 {
   data: {
-    slug: 'caeu-technical-committee-meeting:-investment-and-trade-promotion-in-the-arab-countries',
+    slug: 'caeu-technical-committee-meeting-investment-and-trade-promotion-in-the-arab-countries-1',
     description: 'The Committee addressed the business environment for SMEs in the Arab region and the development of technical & managerial capacities of the SMEs. A full package for establishing an Arab company for manufacturing tractors and agricultural machinery',
     locale_post: {
       create: [
