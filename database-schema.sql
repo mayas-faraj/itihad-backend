@@ -131,6 +131,22 @@ CREATE TABLE locale_level (
   FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
 );
 
+CREATE TABLE classification (
+  id INT AUTO_INCREMENT,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE locale_classification (
+  id INT AUTO_INCREMENT,
+  classification_id INT NOT NULL,
+  locale_id INT NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (classification_id) REFERENCES classification(id) ON DELETE CASCADE,
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
+);
+
+
 CREATE TABLE post_image (
 	id INT AUTO_INCREMENT,
 	img_src VARCHAR(255) NOT NULL,
@@ -161,13 +177,14 @@ CREATE TABLE event (
 CREATE TABLE activity (
   post_id INT,
   level_id INT NOT NULL,
+  classification_id INT NOT NULL,
   started_on DATETIME,
   end_on DATETIME,
   PRIMARY KEY (post_id),
   FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE,
+  FOREIGN KEY (classification_id) REFERENCES classification(id),
   FOREIGN KEY (level_id) REFERENCES level(id)
 );
-
 
 CREATE TABLE highlight (
   post_id INT,
