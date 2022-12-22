@@ -1,0 +1,13 @@
+type Type {
+  name: String
+}
+
+type Query {
+  types: [Type]
+}
+
+type Mutation {
+  createType(name: String!): Type
+  updateType(name: String!, new_name: String!): Type
+  deleteType(name: String!): Type
+}

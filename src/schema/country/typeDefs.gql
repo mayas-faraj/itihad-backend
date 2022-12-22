@@ -1,0 +1,11 @@
+type Country {
+  name: String
+}
+
+type Query {
+  countries: [Country]
+}
+
+type Mutation {
+  createCountry(name: String!, locale: String!): Boolean
+}

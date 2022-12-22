@@ -5,8 +5,7 @@
   "description": "Website for itihad built by Nodejs (apollo, prisma, graphql) and mySql DB.",
   "main": "dist/index.js",
   "scripts": {
-    "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js"
+    "start": "nodemon ./src/index.js"
   },
   "prisma": {
     "seed": "node prisma/seed.js"
@@ -23,10 +22,15 @@
   "homepage": "https://github.com/mayas-faraj/itihad-backend#readme",
   "dependencies": {
     "@apollo/server": "^4.2.2",
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.3.14",
     "@prisma/client": "^4.7.1",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
   },
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "prisma": "^4.7.1"
   }
 }

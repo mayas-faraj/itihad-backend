@@ -1,0 +1,13 @@
+type Setting {
+  name: String
+  value: String
+}
+
+type Query {
+  setting(name: String!): Setting
+}
+
+type Mutation {
+  updateSetting(name: String!, value: String!): Setting
+  deleteSetting(name: String!): Setting
+}
