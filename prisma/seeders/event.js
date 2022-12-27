@@ -14,13 +14,13 @@ export default async function() {
             title: 'AFEI BOD & General Assembly meetings',
             excerpt: 'MEETINGS ARE POSTPONED',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماعات مجلس الإدارة والجمعية العمومية',
             excerpt: 'تم تأجيل الاجتماعات',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -45,13 +45,13 @@ export default async function() {
             title: 'Arab Iron and Steel Union meeting',
             excerpt: 'AFEI as an observer to the AISU meeting of the BOD',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للحديد والصلب',
             excerpt: 'يشارك ممثل الاتحاد العربي للصناعات الهندسية كعضو مراقب في الاجتماع',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -76,13 +76,13 @@ export default async function() {
             title: 'Arab-Turkish Industrial Cooperation Conf.',
             excerpt: 'AIDMO organizes the conference in Libya on 7-8/5/2012.',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر التعاون الصناعي العربي التركي',
             excerpt: 'تعقد المنظمة العربية للتنمية الصناعية والتعدين المؤتمر في طرابلس/ليبيا خلال الفترة 7-8 / 5 / 2012',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -107,13 +107,13 @@ export default async function() {
             title: 'CAEU meeting #94',
             excerpt: 'The Council of Arab Economic Unity is holding its meeting #94 at Marriott hotel in Cairo, and organizing a conference "The economic impact of Arab spring on the stock markets" in cooperation with the Arab Federation of Financial Analysts.',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس الوحدة الاقتصادية العربية رقم 94',
             excerpt: 'يعقد مجلس الوحدة الاقتصادية العربية الاجتماع الوزاري للدورة العادية #94 في فندق ماريوت بالقاهرة. كما ينظم بالتعاون مع الاتحاد العربي للمحللين الماليين مؤتمر "الأثر الاقتصادي لثورات الربيع العربي على أسواق المال".',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -138,13 +138,13 @@ export default async function() {
             title: 'Istanbul Chamber of Commerce Delegation',
             excerpt: 'A meeting amongst a delegation of businessmen in Turkey with interested Egyptian businessmen at Hilton Hotel in Cairo',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'وفد غرفة تجارة اسطنبول',
             excerpt: 'لقاء وفد من رجال الأعمال في تركيا مع رجال الأعمال المصريين الراغبين بالتعاون مع تركيا في فندق هلتون رمسيس بالقاهرة',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -169,13 +169,13 @@ export default async function() {
             title: 'Strategic Management for Total Quality Workshop',
             excerpt: 'A training workshop in Istanbul on 23-27/9/2012 organized by the Arab House for Administrative Development (AHAD)',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ورشة عمل الإدارة الاستراتيجية للجودة الشاملة',
             excerpt: 'ورشة عمل تدريبية في اسطنبول خلال الفترة 23-27/9/2012 تنظمها الدار العربية للتنمية الإدارية',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -200,13 +200,13 @@ export default async function() {
             title: '1st Arab Forum on: Strategic Planning for the development of organizational performance',
             excerpt: 'Arab House for Administrative Development organizes the forum in Sharm Elsheikh on 16-20/9/2012',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الملتقى العربي الأول حول التخطيط الاستراتيجي لتطوير أداء المؤسسات',
             excerpt: 'تنظم الدار العربية للتنمية الإدارية الملتقى في شرم الشيخ خلال الفترة 16-20/9/2012',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -231,13 +231,13 @@ export default async function() {
             title: "Int'l Exhibition for Industries and Production Supplement",
             excerpt: 'The exhibition is organized in Tripoli, Libya on 1-4/10/2012 under the patronage of the Ministry of Industry in Libya',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'المعرض الدولي للصناعات ومستلزمات الإنتاج',
             excerpt: 'يقام المعرض في طرابلس، ليبيا خلال الفترة 1-4/10/2012 تحت رعاية وزارة الصناعة الليبية',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -262,13 +262,13 @@ export default async function() {
             title: 'Annual meeting of the Arab Sectoral Federations no. 42',
             excerpt: 'The meeting presented studies and proposals that were submitted from the federations in the field of quality, maritime transportation, and technology innovation. The General Secretarial of the Arab Council for Economic Unity also presented a unified bylaw for the Arab sectoral federations',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع الدوري /42/ للاتحادات العربية النوعية المتخصصة',
             excerpt: 'استعرض الاجتماع الدوري الثاني والأربعين للاتحادات العربية النوعية التخصصية الذي عقد بحضور رؤساء وأمناء الاتحادات العربية النوعية التخصصية ورجال وسيدات الأعمال دراسات ومقترحات واردة من الاتحادات في مجال الجودة والربط البحري والإبداع التكنولوجي كما قدمت الأمانة العامة للمجلس مذكرة حول النظام الأساسي للاتحادات العربية النوعية المتخصصة',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -293,13 +293,13 @@ export default async function() {
             title: 'AFEI BOD Meeting',
             excerpt: 'AFEI BOD is conducting its meeting in Khartoum on 6 Dec. 2015 to get updates on the situation of different member companies and agree on the date and agenda for the General Assembly meeting.',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد',
             excerpt: 'يعقد مجلس إدارة الاتحاد العربي للصناعات الهندسية اجتماعه في الخرطوم بتاريخ 6 كانون الأول/ديسمبر 2015 للاطلاع على أحوال الشركات الأعضاء والاتفاق على موعد وأجندة اجتماع هيأته العامة.',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -324,13 +324,13 @@ export default async function() {
             title: 'Sectoral Arab Federations meeting',
             excerpt: 'The meeting is taking place in Khartoum on 7 Dec. 2015',
             button_text: 'read more',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع الاتحادات العربية النوعية المتخصصة',
             excerpt: 'يعقد الاجتماع في الخرطوم بتاريخ 7 كانون الأول/ديسمبر 2015',
             button_text: 'قراءة المزيد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },

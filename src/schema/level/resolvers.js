@@ -3,10 +3,10 @@ const prismaClient = new Prisma().getPrismaClient();
 
 const resolvers = {
   Query: {
-   countries: async (_, __, context)=>{
-      const result = await prismaClient.country.findMany({
+   levels: async (_, __, context)=>{
+      const result = await prismaClient.level.findMany({
         include: {
-          locale_country: {
+          locale_level: {
             select: {
               name: true
             },
@@ -17,17 +17,17 @@ const resolvers = {
         }
       });
       return result.map(item=>{
-        item.name=(item.locale_country && item.locale_country.length>0)?item.locale_country[0].name:"no_translation";
-        delete item.locale_country;
+        item.name=(item.locale_level && item.locale_level.length>0)?item.locale_level[0].name:"no_translation";
+        delete item.locale_level;
         return item;
       });
     },
   },
   Mutation: {
-    createCountry: async (_, args)=>{
-      const result = await prismaClient.country.create({
+    createLevel: async (_, args)=>{
+      const result = await prismaClient.level.create({
         data: { 
-          locale_country: {
+          locale_level: {
             create: args.input.map(item=>({
               name: item.name,
               locale_id: item.locale
@@ -37,22 +37,26 @@ const resolvers = {
       });
       return result;
     },
-    updateCountry: async (_, args, __, ___)=>{
-      const result = await prismaClient.country.update({
+    updateLevel: async (_, args, __, ___)=>{
+      const result = await prismaClient.level.update({
         where: {
           id: args.id
         },
         data: { 
-          locale_country: {
+          locale_level: {
             upsert: args.input.map(item=>({
                 where: {
-                  locate_id_country_id: {
+                  locale_id_level_id: {
                     locale_id: item.locale,
-                    country_id: args.id
+                    level_id: args.id
                   }
                 },
-                data: {
+                update: {
                   name: item.name
+                },
+                create: {
+                  name: item.name,
+                  locale_id: item.locale
                 }
             }))
           }
@@ -61,8 +65,8 @@ const resolvers = {
       console.log(result);
       return result;
     },
-    deleteCountry: async (_, args)=>{
-      const result = await prismaClient.country.delete({
+    deleteLevel: async (_, args)=>{
+      const result = await prismaClient.level.delete({
         where: {
           id: args.id
         }

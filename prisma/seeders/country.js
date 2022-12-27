@@ -9,19 +9,11 @@ export default async function() {
         create: [
           {
             name: "Syria",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "سورية",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -36,19 +28,11 @@ export default async function() {
         create: [
           {
             name: "Egypt",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "مصر",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -63,19 +47,11 @@ export default async function() {
         create: [
           {
             name: "Kuwait",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "الكويت",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -90,19 +66,11 @@ export default async function() {
         create: [
           {
             name: "Bahrain",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "البحرين",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -117,19 +85,11 @@ export default async function() {
         create: [
           {
             name: "Saudia Arabia",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "السعودية",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -144,19 +104,11 @@ export default async function() {
         create: [
           {
             name: "Iraq",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "العراق",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -171,19 +123,11 @@ export default async function() {
         create: [
           {
             name: "Tunisia",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "تونس",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -198,19 +142,11 @@ export default async function() {
         create: [
           {
             name: "Sudan",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "السودان",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -225,19 +161,11 @@ export default async function() {
         create: [
           {
             name: "Algeria",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "الجزائر",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -252,19 +180,11 @@ export default async function() {
         create: [
           {
             name: "Lebanon",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "لبنان",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ],
       }
@@ -279,19 +199,11 @@ export default async function() {
         create: [
           {
             name: "Jordan",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "الأردن",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }

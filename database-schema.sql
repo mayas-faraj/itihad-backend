@@ -48,7 +48,7 @@ CREATE TABLE locale_country (
   PRIMARY KEY (id),
   FOREIGN KEY (country_id) REFERENCES country(id) ON DELETE CASCADE,
   FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
-  UNIQUE (locale_id, name)
+  UNIQUE (locale_id, country_id)
 );
 
 CREATE TABLE category (
@@ -68,7 +68,8 @@ CREATE TABLE locale_category (
   name VARCHAR(100) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (category_id) REFERENCES category(id) ON DELETE CASCADE,
-  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
+  UNIQUE (locale_id, category_id)
 );
 
 CREATE TABLE type (
@@ -112,7 +113,8 @@ CREATE TABLE locale_post (
   button_text VARCHAR(100),
   PRIMARY KEY (id),
   FOREIGN KEY (post_id) REFERENCES post(id) ON DELETE CASCADE,
-  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
+  UNIQUE (locale_id, post_id)
 );
 
 CREATE TABLE level (
@@ -127,7 +129,8 @@ CREATE TABLE locale_level (
   name VARCHAR(100) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (level_id) REFERENCES level(id) ON DELETE CASCADE,
-  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
+  UNIQUE (locale_id, level_id)
 );
 
 CREATE TABLE classification (
@@ -142,7 +145,8 @@ CREATE TABLE locale_classification (
   name VARCHAR(100) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (classification_id) REFERENCES classification(id) ON DELETE CASCADE,
-  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
+  UNIQUE (locale_id, classification_id)
 );
 
 
@@ -162,7 +166,8 @@ CREATE TABLE locale_post_image (
 	title VARCHAR(100),
 	FOREIGN KEY (post_image_id) REFERENCES post_image(id) ON DELETE CASCADE,
 	FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
-	PRIMARY KEY (id)	
+	PRIMARY KEY (id),
+  UNIQUE (locale_id, post_image_id)
 );
 
 CREATE TABLE event (
@@ -213,12 +218,13 @@ CREATE TABLE locale_member (
 	locale_id CHAR(5) NOT NULL,
 	member_id INT NOT NULL,
 	name VARCHAR(100) NOT NULL,
-  excerpt VARCHAR(1000),
+  excerpt VARCHAR(2000),
   company VARCHAR(100),
   position VARCHAR(100), 
 	FOREIGN KEY (member_id) REFERENCES member(id) ON DELETE CASCADE,
 	FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE, 
-	PRIMARY KEY (id)	
+	PRIMARY KEY (id),
+  UNIQUE (locale_id, member_id)
 );
 
 CREATE TABLE company (
@@ -245,7 +251,8 @@ CREATE TABLE locale_company (
   representer VARCHAR(100), 
 	FOREIGN KEY (company_id) REFERENCES company(id) ON DELETE CASCADE,
 	FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
-	PRIMARY KEY (id)	
+	PRIMARY KEY (id),
+  UNIQUE (locale_id, company_id)
 );
 
 CREATE TABLE menu (
@@ -275,7 +282,8 @@ CREATE TABLE locale_menu_item (
 	title VARCHAR(200) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (menu_item_id) REFERENCES menu_item(id) ON DELETE CASCADE,
-  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE 
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
+  UNIQUE (locale_id, menu_item_id)
 );
 
 CREATE TABLE contact (

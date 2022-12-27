@@ -1,0 +1,19 @@
+type Level {
+  id: Int
+  name: String
+}
+
+type Query {
+  levels: [Level]
+}
+
+input LevelInput {
+  name: String!
+  locale: String!
+}
+
+type Mutation {
+  createLevel(input: [LevelInput!]!): Level
+  updateLevel(id: Int!, input: [LevelInput!]!): Level
+  deleteLevel(id: Int!): Level
+}

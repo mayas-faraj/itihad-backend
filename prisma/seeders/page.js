@@ -17,21 +17,13 @@ export default async function() {
             title: "Arab Federation for Engineering Industries",
             excerpt: "The Federation is an association of employers from Arab countries who are operating in the sector of engineering industries that aims at contributing to defending the interests of member companies within the framework of society public interest in all forums.",
             content: "[home]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "الاتحاد العربي للصناعات الهندسية",
             excerpt: "الاتحاد هو تجمع لأصحاب أعمال من الوطن العربي في قطاع الصناعات الهندسية يهدف إلى المساهمة في رعاية مصالح الشركات الأعضاء فى إطار المصلحة العامة للمجتمع في كافة المحافل.",
             content: "[home]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -71,19 +63,11 @@ export default async function() {
             create: [
               {
                 title: "About us",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "عن الإتحاد",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -95,11 +79,7 @@ export default async function() {
             title: "About",
             excerpt: "The Federation is an association of Arab countries' employers operating in the sector of engineering industries which aims at contributing to defending the interests of member companies within the framework of society public interest in all forums",
             content: `The Federation is an association of Arab countries' employers operating in the sector of engineering industries which aims at contributing to defending the interests of member companies within the framework of society public interest in all forums and through: coordination and active participation in issues related to plans and programs of economic and professional developments in the Arab countries, capacity building to achieve impact and effectiveness in these fields, upgrading the industries to the international level of competitiveness, and strengthening the capacities of young industrialists.:`,
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "عن الاتحاد",
@@ -112,11 +92,7 @@ export default async function() {
 
   عدد الدول المشاركة في الاتحاد العربي للصناعات الهندسية من عام 1975 حتى يونيو 2009 بلغت 14 دولة وهي:
   جمهورية السودان - جمهورية مصر العربية  - الجمهورية العربية السورية - الإمارات العربية المتحدة - الجمهورية الجزائرية الديمقراطية - جمهورية العراق - المملكة الأردنية الهاشمية - مملكة البحرين - دولة الكويت - الجماهيرية العربية الليبية - المملكة المغربية - الجهورية اللبنانية - المملكة العربية السعودية - الجمهورية التونسية`,
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -156,19 +132,11 @@ export default async function() {
             create: [
               {
                 title: "Contact us",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "اتصل بنا",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -180,21 +148,13 @@ export default async function() {
             title: "Contact us",
             excerpt: "Contact AFEI in Damascus and Cairo by email or directly by phone. ",
             content: "[contact]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "اتصل بنا",
             excerpt: `الأمانة العامة والمكتب الإقليمي بدمشق،عنوان مكتب الاتحاد العربي للصناعات الهندسية في دمشق،هاتف الاتحاد العربي للصناعات الهندسية في دمشق،بريد الكتروني afei.sy@gmail.com،المكتب الإقليمي في القاهرة،عنوان الاتحاد العربي للصناعات الهندسية في القاهرة، هاتف الاتحاد العربي للصناعات الهندسية في القاهرة،بريد إلكتروني afei@link.net،فاكس الاتحاد العربي للصناعات الهندسية في دمشق،فاكس الاتحاد العربي للصناعات الهندسية في القاهرة`,
             content: "[contact]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -234,19 +194,11 @@ export default async function() {
             create: [
               {
                 title: "Activities",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "النشاطات",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -258,21 +210,13 @@ export default async function() {
             title: "Activities",
             excerpt: "",
             content: "[activities]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "النشاطات",
             excerpt: "",
             content: "[activities]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -312,19 +256,11 @@ export default async function() {
             create: [
               {
                 title: "members",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "الأعضاء",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -336,21 +272,13 @@ export default async function() {
             title: "Members",
             excerpt: "Provision of specialized services for the members which falls within the Federation's priorities, at a high level of quality, and responding to the requirements of each country.",
             content: "[members]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "الأعضاء",
             excerpt: "تقديم خدمات متخصصة ضمن أولويات الاتحاد للأعضاء بحيث تكون على مستوى عال من الجودة وتتجاوب مع متطلبات كل بلد من البلدان. ",
             content: "[members]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -391,19 +319,11 @@ export default async function() {
             create: [
               {
                 title: "FYI",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "لمعلوماتك",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -416,22 +336,14 @@ export default async function() {
             excerpt: `Associations are recently seen as the forth model of society (beside the Community, the Market, and the State).
   The German Federation of Industries has the knowledge, as well as the structures, procedures, and human capacities which make it a good example of a how mutual complementarities between the four models can be accomplished`,
             content: "[resourses]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "لمعلوماتك",
             excerpt: `يقرّ الباحثون في علوم الاجتماع والسياسة حالياً بأن الجمعيات هي القطب الرابع في النظام الاجتماعي (إلى جانب: المجتمع، السوق، والدولة).
   إن المعرفة المتوفرة في اتحاد الصناعات الألماني ومقوماتها من حيث الهيكلية والآليات والقدرات البشرية تمكننا من اعتبار الاتحاد مثالاً جيداً للدور الفريد الذي توفره الجمعيات لتتكامل مع النظام الاجتماعي في نموذجه الرباعي.`,
             content: "[resourses]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -471,19 +383,11 @@ export default async function() {
             create: [
               {
                 title: "Announcements",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "مستجدات",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -495,21 +399,13 @@ export default async function() {
             title: "Announcements",
             excerpt: "",
             content: "[annoucements]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "مستجدات",
             excerpt: "",
             content: "[annoucements]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },
@@ -549,19 +445,11 @@ export default async function() {
             create: [
               {
                 title: "Media",
-                locale: {
-                  connect: {
-                    name: "en-US"
-                  }
-                }
+                locale_id: "en-US"
               },
               {
                 title: "ميديا",
-                locale: {
-                  connect: {
-                    name: "ar-SY"
-                  }
-                }
+                locale_id: "ar-SY"
               }
             ]
           }
@@ -574,21 +462,13 @@ export default async function() {
             title: "media",
             excerpt: "",
             content: "[gallery]",
-            locale: {
-              connect: {
-                name: "en-US"
-              }
-            }
+            locale_id: "en-US"
           },
           {
             title: "ميديا",
             excerpt: "",
             content: "[gallery]",
-            locale: {
-              connect: {
-                name: "ar-SY"
-              }
-            }
+            locale_id: "ar-SY"
           }
         ]
       },

@@ -19,7 +19,7 @@ export default async function() {
               'The BOD awarded AFEI membership to Zarkaa Engineering Co, and Jiad Co. for Trucks (both Sudanese) as of 2008.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
@@ -31,7 +31,7 @@ export default async function() {
               'وافق مجلس الإدارة على انضمام كل من شركة الزرقاء الهندسية &ndash; السودان وشركة جياد للشاحنات المحدودة اعتباراً من عام 2008.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -66,7 +66,7 @@ export default async function() {
               'On the sidelines, the BOD met representatives of ALI, HE Minister of Industry in Lebanon, and listened to a presentation on using the Arab Standard Classification of Occupations.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
@@ -76,7 +76,7 @@ export default async function() {
               'وعلى هامش الاجتماع التقى مجلس الإدارة جمعية الصناعيين اللبنانيين، ومعالي وزير الصناعة اللبناني. كما استمع إلى عرض حول استخدامات التصنيف العربي المعياري للمهن.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -100,11 +100,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -116,11 +116,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -132,11 +132,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -148,11 +148,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -164,11 +164,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -180,11 +180,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -196,11 +196,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -212,11 +212,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -228,11 +228,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -244,11 +244,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -260,11 +260,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -276,11 +276,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -292,11 +292,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -308,11 +308,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -324,11 +324,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -340,11 +340,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -356,11 +356,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -372,11 +372,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -388,11 +388,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -404,11 +404,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة - لبنان 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -433,7 +433,7 @@ export default async function() {
             content: '&nbsp;The BOD meeting was chaired by Eng. Abdulhadi Abdulmonem/ Chairman of the board. The report on activities and the work plan were reviewed, and the BOD recommended to document activities of members each in his country and to make them available through the general secretariat. Having considered the paper of Mr.Sellami on modern irrigation methods and making use of solar energy, it was decided to circulate the paper to members and collect practical proposals of those who are interested.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
@@ -441,7 +441,7 @@ export default async function() {
             content: 'عقد مجلس الإدارة اجتماعه برئاسة المهندس عبد الهادي عبد المنعم رئيس مجلس الإدارة حيث صادق على محضر الاجتماع السابق واستعرض تقرير النشاطات وخطة العمل وأوصى بضرورة توثيق أنشطة الأعضاء كل في بلده وتعميم الاستفادة من هذه الأنشطة من خلال الأمانة العامة. وبعد الاطلاع على ورقة مقترحة من الأستاذ منصف السلامي عن أساليب الري الحديثة والاستفادة من الطاقة الشمسية تقرر تعميم الورقة على الأعضاء وتجميع المقترحات العملية لمن يهمه الأمر منهم.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -478,7 +478,7 @@ export default async function() {
               'Strategic Vision Formulation Working Group\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
@@ -491,7 +491,7 @@ export default async function() {
               'مجموعة عمل صياغة الرؤية الاستراتيجية\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -514,11 +514,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - لبنان 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -530,11 +530,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Lebanon 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - لبنان 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -561,7 +561,7 @@ export default async function() {
               'Young Industrialists Committee\n' +
               'Downloadable files:\n' +
               'Agenda, News articles',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'لقاء الشباب الصناعيين العرب',
@@ -571,7 +571,7 @@ export default async function() {
               'لجنة الشباب الصناعي\n' +
               'ملفات للتنزيل:\n' +
               'برنامج اللقاء، مقالات الصحف',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -607,7 +607,7 @@ export default async function() {
               'Young Industrialists Committee\n' +
               'Downloadable files:\n' +
               'Agenda, Presentation of SEBC/SSP SMEs Support',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع لجنة الشباب الصناعي',
@@ -619,7 +619,7 @@ export default async function() {
               'لجنة الشباب الصناعي\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع، العرض التقديمي حول برنامج دعم المؤسسات الصغيرة والمتوسطة الذي ينفذه مركز الأعمال والمؤسسات السورية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -642,11 +642,11 @@ export default async function() {
               create: [
                 {
                   title: 'Young Industrialists ',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'لجنة الشباب الصناعي ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -671,7 +671,7 @@ export default async function() {
             content: 'Mr.Nabil Hassanein -Chairman of the board- chaired the meeting which tackled the proposal for updating the AFEI website, the support from Arab Cab to AFEI, and internal issues that will be presented to the general assembly meeting.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
@@ -679,7 +679,7 @@ export default async function() {
             content: 'ترأس الأستاذ نبيل حسنين/رئيس مجلس الإدارة/ الاجتماع الذي تطرق إلى مقترح تحديث موقع الاتحاد على الإنترنت، والدعم المقدم من مؤتمر تجمع الكابلات للاتحاد إضافة إلى الشؤون الداخلية تحضيراً لعرضها على اجتماع الجمعية العمومية القادم.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -709,13 +709,13 @@ export default async function() {
             title: 'AFEI BOD meeting',
             excerpt: 'The AFEI Board of Directors for the term 2005-2009 conducted its last meeting prior to the election of the new members for the next term. The young industrialists participated in the meeting, and Dr. A. H. Yafi was re-assigned as the Secretary General for a new period according to the bylaw.',
             content: 'The AFEI Board of Directors for the term 2005-2009 conducted its last meeting prior to the election of the new members for the next term. As approved, the 2nd generation of young industrialists participated in the meeting which was chaired by Mr.Naqi due to the health condition of the BOD Chairman. The members decided to re-assign Dr. A. H. Yafi as the AFEI Secretary General for a new period according to the bylaw.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
             excerpt: 'عقد مجلس إدارة الاتحاد للدورة 2005-2009 اجتماعه الأخير قبيل انتخاب المجلس الجديد للفترة التالية وبحضور الشباب الصناعي حيث تم إعادة تعيين د.أحمد هيثم اليافي أميناً عاماً للاتحاد لفترة جديدة وفقاً للنظام الأساسي.',
             content: 'عقد مجلس إدارة الاتحاد للدورة 2005-2009 اجتماعه الأخير قبيل انتخاب المجلس الجديد للفترة التالية. ووفقاً لما تم إقراره سابقاً فقد شارك الجيل الثاني من الشباب الصناعيين في هذا الاجتماع الذي عقد برئاسة الأستاذ محمد النقي نظراً للظروف الصحية التي حالت دون حضور رئيس مجلس الإدارة. قرر الأعضاء إعادة تعيين د.أحمد هيثم اليافي أميناً عاماً للاتحاد لفترة جديدة وفقاً للنظام الأساسي.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -738,11 +738,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -754,11 +754,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -770,11 +770,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -786,11 +786,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -802,11 +802,11 @@ export default async function() {
               create: [
                 {
                   title: 'BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجلس الإدارة - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -833,7 +833,7 @@ export default async function() {
               '-&nbsp;&nbsp;&nbsp; Mr.Monsef Sellami vice-chirman for the Maghreb region\n' +
               '-&nbsp;&nbsp;&nbsp; Mr.Said Alhafez vice-chairman for the Mashreq region\n' +
               'It was decided to conduct the next meeting of the BOD in Beirut on December 2009.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للصناعات الهندسية',
@@ -843,7 +843,7 @@ export default async function() {
               '-&nbsp;&nbsp;&nbsp; انتخاب المهندس منصف السلامي نائباً للرئيس عن منطقة المغرب العربي بالتزكية.\n' +
               '-&nbsp;&nbsp;&nbsp; انتخاب السيد المهندس محمد سعيد الحافظ نائباً للرئيس عن منطقة المشرق العربي بالتزكية.\n' +
               'وتقرر أن يكون اجتماع مجلس الإدارة القادم في بيروت خلال شهر كانون الأول/ديسمبر 2009.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -866,11 +866,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -882,11 +882,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -898,11 +898,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -914,11 +914,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -930,11 +930,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -946,11 +946,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -962,11 +962,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -978,11 +978,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -994,11 +994,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1010,11 +1010,11 @@ export default async function() {
               create: [
                 {
                   title: 'New BOD Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: ' مجلس الإدارة الجديد - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1043,7 +1043,7 @@ export default async function() {
               'Young Industrialists Committee\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع لجنة الشباب الصناعي',
@@ -1055,7 +1055,7 @@ export default async function() {
               'لجنة الشباب الصناعي\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -1093,7 +1093,7 @@ export default async function() {
               'Finally, some ideas on how to interpret the strategic vision (organizational structure) were discussed, and the necessary activities after approving the vision were identified.\n' +
               'Related links:\n' +
               'Strategic Vision Formulation Working Group',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد ',
@@ -1106,7 +1106,7 @@ export default async function() {
               'انتهى الاجتماع إلى وضع تصورات لكيفية ترجمة الرؤية الاستراتيجية (هيكل تنظيمي) وتحديد الأنشطة اللازم استكمالها بعد الاتفاق على صياغة الرؤية.\n' +
               'روابط ذات صلة:\n' +
               'مجموعة عمل صياغة الرؤية الاستراتيجية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -1129,11 +1129,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1145,11 +1145,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1161,11 +1161,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1177,11 +1177,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1193,11 +1193,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1209,11 +1209,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1225,11 +1225,11 @@ export default async function() {
               create: [
                 {
                   title: 'AVX Meeting Lebanon 2012',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مجموعة عمل صياغة الرؤية الاستراتيجية للاتحاد - لبنان 2012',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1258,7 +1258,7 @@ export default async function() {
               'Project description on the GIZ website\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الندوة الإقليمية الختامية حول "مقاربات تصميم سياسة الإبداع للمنشآت الصغيرة والمتوسطة"',
@@ -1270,7 +1270,7 @@ export default async function() {
               'وصف المشروع على موقع الوكالة الألمانية للتعاون الدولي\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الندوة',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -1294,11 +1294,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1310,11 +1310,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1326,11 +1326,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1342,11 +1342,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1358,11 +1358,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1374,11 +1374,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1390,11 +1390,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1406,11 +1406,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1422,11 +1422,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1438,11 +1438,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1454,11 +1454,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1470,11 +1470,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1486,11 +1486,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1502,11 +1502,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1518,11 +1518,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1534,11 +1534,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1550,11 +1550,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1566,11 +1566,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1582,11 +1582,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1598,11 +1598,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1614,11 +1614,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1630,11 +1630,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1646,11 +1646,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1662,11 +1662,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1678,11 +1678,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1694,11 +1694,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Wrap-up Seminar 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الندوة الختامية لمشروع GIZ في 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1724,7 +1724,7 @@ export default async function() {
               'The General assembly approved the BOD report for the year 2006, endorsed the action plan for the year 2007, and discussed the report of the designated committee on the future vision of AFEI.\n' +
               'Downloadable files:\n' +
               'News articles',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع الجمعية العمومية العادية للاتحاد العربي للصناعات الهندسية',
@@ -1733,7 +1733,7 @@ export default async function() {
               'حيث صادقت الجمعية العمومية على تقرير مجلس الإدارة لعام 2006 كما أقرت خطة عمل الاتحاد لعام 2007 وناقشت تقرير لجنة تحديد الرؤيا المستقبلية للاتحاد.\n' +
               'ملفات للتنزيل:\n' +
               'أخبار الصحف',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -1767,7 +1767,7 @@ export default async function() {
               'The exceptional meeting of the general assembly was dedicated to discuss and agree on amendments to the AFEI bylaw which were formulated by a designated committee based on suggestions of some members.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع الجمعية العمومية العادية للاتحاد العربي للصناعات الهندسية',
@@ -1777,7 +1777,7 @@ export default async function() {
               'خصص اجتماع الجمعية العمومية غير العادية للاتفاق على تعديل بعض مواد النظام الأساسي للاتحاد التي صيغت من قبل اللجنة المشكلة بناءً على مقترحات بعض الأعضاء.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماعات',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -1817,7 +1817,7 @@ export default async function() {
               '-&nbsp;&nbsp;&nbsp; Honoring Mr. Rashid Alio on the occasion of his retirement from his position as Director of Arab Federations Division at CAEU.\n' +
               'Related links:\n' +
               "Conference on &ldquo;Impact of the economic crisis on industry and the role of national/regional employers' organizations&rdquo; which is organized by AFEI on the occasion of the General Assembly meeting",
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع الجمعية العمومية للاتحاد العربي للصناعات الهندسية',
@@ -1832,7 +1832,7 @@ export default async function() {
               '-&nbsp;&nbsp;&nbsp; تكريم الأستاذ رشيد عليو بمناسبة بلوغه السن القانوني للتقاعد من منصبه كمدير لإدارة الاتحادات في مجلس الوحدة الاقتصادية العربية\n' +
               'مواقع ذات صلة:\n' +
               'المؤتمر "آثار الأزمة الاقتصادية العالمية على الصناعة ودور منظمات أصحاب الأعمال الوطنية والإقليمية" الذي نظمه الاتحاد على هامش اجتماعات الجمعية العمومية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -1855,11 +1855,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1871,11 +1871,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1887,11 +1887,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1903,11 +1903,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1919,11 +1919,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1935,11 +1935,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1951,11 +1951,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1967,11 +1967,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1983,11 +1983,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -1999,11 +1999,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2015,11 +2015,11 @@ export default async function() {
               create: [
                 {
                   title: 'General Assembly - Syria 2009',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الجمعية العمومية - سورية 2009',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2045,7 +2045,7 @@ export default async function() {
               "The General assembly approved the BOD report for the year 2009, endorsed the work plan for the year 2010 with recommendation on the importance of documenting members' activities -in their respective countries- that are falling within the lines of activities in the plan.\n" +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع الجمعية العمومية العادية للاتحاد العربي للصناعات الهندسية',
@@ -2053,7 +2053,7 @@ export default async function() {
             content: 'عقدت الدورة /26/ الهيئة العامة للاتحاد في القاهرة بتاريخ 14/5/2010 برئاسة المهندس عبد الهادي عبد المنعم/رئيس مجلس إدارة الاتحاد حيث صادقت الهيئة العامة على تقرير الاتحاد لعام 2009 خطة العمل لعام 2010 مع التوصية بأهمية توثيق نشاطات الأعضاء (كل في بلده) في إطار الخطوط العامة للأنشطة التي تضمنتها الخطة.\n' +
               'ملفات للتنزيل:\n' +
               'جدول الأعمال',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2088,7 +2088,7 @@ export default async function() {
               '1st EuroArab Conference on SMEs\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من سورية',
@@ -2099,7 +2099,7 @@ export default async function() {
               'المؤتمر الأوربي-العربي الأول حول المنشآت الصغيرة والمتوسطة\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2132,7 +2132,7 @@ export default async function() {
               'The meeting also tackled the request of SPC to set a meeting with members in Syria (as representatives of employers) during the visit of the delegation from Brussels within the framework of the EU Program "In-Service Training".\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من سورية',
@@ -2141,7 +2141,7 @@ export default async function() {
               'كما تناول الاجتماع طلب هيئة تخطيط الدولة تحديد اجتماع مع أعضاء الاتحاد في سورية (كممثلين لأصحاب الأعمال) خلال زيارة وفد من بروكسل ضمن إطار مشروع الاتحاد الأوربي "In-service training"\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2173,7 +2173,7 @@ export default async function() {
             content: 'In their meeting on 5/12/2010 in Damascus Office, members of the board of AFEI from Syria discussed the WIPO ToT program on IP Management for SMEs, the invitation to attend meeting #92 of the Council of Arab Economic Unity on 9/12/2010 as an observer, and the membership application of Orient Co. in Syria to become a member in the federation.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من سورية',
@@ -2181,7 +2181,7 @@ export default async function() {
             content: 'في اجتماع أعضاء مجلس إدارة الاتحاد في مكتب دمشق بتاريخ 5/12/2010 بدمشق تمت مناقشة برنامج WIPO لتدريب المدربين حول إدارة الملكية الفكرية للمؤسسات الصغيرة والمتوسطة، والدعوة الموجهة للاتحاد لحضور اجتماعات الدورة/92/ لمجلس الوحدة الاقتصادية العربية بتاريخ 9/12/2010 كعضو مراقب، وطلب شركة أورينت لإنتاج الحديد الإنشائي والصناعي المدرفل على الساخن في سورية للانتساب إلى الاتحاد كعضو عامل.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2216,7 +2216,7 @@ export default async function() {
               '-&nbsp;&nbsp; On-going discussions between AFEI, SEBC, and the SMEs Directorate at MOET on partnership of the three entities to establish the Youth Incubator within the framework of the SMEs strategy\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من سورية',
@@ -2227,7 +2227,7 @@ export default async function() {
               '-&nbsp;&nbsp; مناقشات بين الاتحاد ومركز الأعمال والمؤسسات السوري ومديرية المؤسسات الصغيرة والمتوسطة بوزارة الاقتصاد حول التشارك بين الأطراف الثلاثة في إنشاء حاضنة أعمال الشباب السوري ضمن إطار استراتيجية المؤسسات الصغيرة والمتوسطة\n' +
               'ملفات للتنزيل:\n' +
               'جدول الأعمال',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2258,14 +2258,14 @@ export default async function() {
             excerpt: 'Syrian members of AFEI board discussed the position of the public sector on the feasibility of involving the private sector, and the strategy to support entrepreneurs.',
             content: 'In their meeting, members of the board of AFEI from Syria exchanged on their impressions from their meetings with the ministers of finance and economy regarding the public sector position on involving the private sector in the governmental programs.\n' +
               'The meeting also tackled the strategy of supporting entrepreneurs both before they start the business- through the partnership in vocational education &amp; training, and after graduation -through the initiative of Syrian Social Society for Youth to establish an incubator for youth.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من سورية',
             excerpt: 'تداول أعضاء مجلس الإدارة في سورية حول رأي القطاع الحكومي بجدوى مشاركة القطاع الخاص في الرأي، واستراتيجية دعم رواد الأعمال',
             content: 'في اجتماع أعضاء مجلس إدارة الاتحاد في مكتب دمشق قبيل لقائهم السيد وزير الصناعة تداول الحضور بخصوص انطباعاتهم من زياراتهم لوزيري المالية والاقتصاد وموقف القطاع الحكومي من إشراك القطاع الخاص بالرأي في البرامج الحكومية.\n' +
               'كما تناول الاجتماع استراتيجية دعم رواد الأعمال قبل إنشائهم عملهم من خلال الشراكة في التعليم والتدريب المهني، وبعد تخرجهم من خلال مبادرة الجمعية الاجتماعية للشباب السوري لإنشاء حاضنة الشباب.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2299,7 +2299,7 @@ export default async function() {
               'Members of the Association agreed to hold their 2nd conference in Morocco on April 2006.\n' +
               'Related links:\n' +
               'Arab Cable Manufacturers Association Website',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر عرب كاب الأول',
@@ -2309,7 +2309,7 @@ export default async function() {
               'اتفق أعضاء التجمع على عقد مؤتمرهم الثاني في المغرب خلال شهر نيسان 2006.\n' +
               'روابط ذات صلة:\n' +
               'الموقع الإلكتروني لتجمع مصنعي الكابلات العرب',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2333,11 +2333,11 @@ export default async function() {
               create: [
                 {
                   title: 'ArabCab 2005',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'عرب كاب 2005',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2364,7 +2364,7 @@ export default async function() {
               'An important outcome of this Conference was the birth of the Arab Federation for Metrology and Calibration.\n' +
               'Downloadable files:\n' +
               'Program, Flyer(en), Papers',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'المؤتمر العربي الأول للقياس والمعايرة',
@@ -2374,7 +2374,7 @@ export default async function() {
               'ومن النتائج الهامة لهذا المؤتمر ولادة الاتحاد العربي للقياس والمعايرة.\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج، المنشور(ع)، أوراق العمل.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2398,11 +2398,11 @@ export default async function() {
               create: [
                 {
                   title: 'Conference on Metrology and Calibration',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'المؤتمر العربي للقياس والمعايرة',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2414,11 +2414,11 @@ export default async function() {
               create: [
                 {
                   title: 'Conference on Metrology and Calibration',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'المؤتمر العربي للقياس والمعايرة',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2447,7 +2447,7 @@ export default async function() {
               'AFEI BOD meeting, AFEI General Assembly meeting\n' +
               'Downloadable files:\n' +
               'Agenda, Presentations, News articles',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية على الصناعة ودور منظمات أصحاب الأعمال الإقليمية والوطنية',
@@ -2460,7 +2460,7 @@ export default async function() {
               'ملفات للتنزيل:\n' +
               'البرنامج، العروض التقديمية، مقالات الصحف\n' +
               '&nbsp;\n',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2483,11 +2483,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2499,11 +2499,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2515,11 +2515,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2531,11 +2531,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2547,11 +2547,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2563,11 +2563,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2579,11 +2579,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2595,11 +2595,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2611,11 +2611,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2627,11 +2627,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2643,11 +2643,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2659,11 +2659,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2675,11 +2675,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2691,11 +2691,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2707,11 +2707,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2723,11 +2723,11 @@ export default async function() {
               create: [
                 {
                   title: 'Impact of the economic crisis Conf.',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تأثير الأزمة الاقتصادية العالمية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2756,7 +2756,7 @@ export default async function() {
               'Conference on SEBC website &amp; Gallery\n' +
               'Downloadable files:\n' +
               'Program',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'المؤتمر الأوربي-العربي الأول حول المنشآت الصغيرة والمتوسطة',
@@ -2768,7 +2768,7 @@ export default async function() {
               'المؤتمر &amp; الصور على الموقع الإلكتروني لمركز الأعمال والمؤسسات السوري\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2792,11 +2792,11 @@ export default async function() {
               create: [
                 {
                   title: '1st EuroArab Conference on SMEs',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'المؤتمر الأوربي-العربي الأول ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2827,7 +2827,7 @@ export default async function() {
               'Arab Federation for Metrology\n' +
               'Downloadable files:\n' +
               'Conference brochure (en)',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ملتقى الخبراء والمتخصصين في المعايرة والقياس في الأجهزة التشخيصية والعلاج',
@@ -2839,7 +2839,7 @@ export default async function() {
               'الاتحاد العربي للقياس والمعايرة - المترولوجيا\n' +
               'ملفات للتنزيل:\n' +
               'بروشور المؤتمر (ع)',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2862,11 +2862,11 @@ export default async function() {
               create: [
                 {
                   title: 'Forum of Experts and specialists in Metrology - Cairo 2010',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ملتقى الخبراء والمتخصصين في المعايرة والقياس - القاهرة 2010',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2893,7 +2893,7 @@ export default async function() {
               'The conference resulted with eight recommendations revolving around the necessity to establish programs for water reuse and unconventional water resources in order to cover the national needs for agriculture, industry, and environment services.\n' +
               'Downloadalbe file: \n' +
               'Flyer, Agenda, Report, News articles, Recommendations',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر تحلية المياه',
@@ -2903,7 +2903,7 @@ export default async function() {
               'وقد أوصى المؤتمر في ختام جلساته بثمان توصيات تدور حول ضرورة العمل على تأسيس برامج لإعادة إستخدام المياه، وبناء موارد مياه غير تقليدية لتغطية الإحتياجات الوطنية من أجل الزراعة والصناعة والخدمات البيئية.\n' +
               'ملفات للتنزيل:\n' +
               'المنشور، البرنامج، تقرير، مقالات صحفية، التوصيات',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -2927,11 +2927,11 @@ export default async function() {
               create: [
                 {
                   title: 'Water Desalination Conference',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تحلية المياه',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2943,11 +2943,11 @@ export default async function() {
               create: [
                 {
                   title: 'Water Desalination Conference',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تحلية المياه',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2959,11 +2959,11 @@ export default async function() {
               create: [
                 {
                   title: 'Water Desalination Conference',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تحلية المياه',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -2975,11 +2975,11 @@ export default async function() {
               create: [
                 {
                   title: 'Water Desalination Conference',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'مؤتمر تحلية المياه',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3006,7 +3006,7 @@ export default async function() {
               'A notable discussion was the speech of Mr.Saniora who listed the major obstacles facing the Arab world development, then asserted the need to move according to paths that would enable the region to cope with changes in the world through: joint work to discover new sources of energy, joint investment in education and curricula development, health sector, investing in the economy of production (i.e. agriculture and industry sectors), and most importantly removing legal and administrative obstacles hindering the cooperation between economies in the Arab countries, and also the flow of Arab and foreign investments.\n' +
               'Downloadable files:\n' +
               'Agenda, Media article',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'منتدى القطاع الخاص العربي',
@@ -3016,7 +3016,7 @@ export default async function() {
               'ومن أبرز ما نوقش كلمة الأستاذ السنيورة الذي فند العوائق الأساسية لتطور العالم العربي، ومن ثم أكد على أنه ينبغي السير على مسارات تستطيع أن تمكننا كمنطقة ودول وشعوب من التلاؤم مع مقتضيات التغير الحاصل في العالم من حولنا وذلك من خلال عدة محاور، منها: العمل المشترك على إيجاد مصادر جديدة وحقيقية للطاقة- الاستثمار المشترك في التعليم وتطوير المناهج التعليمية المتلائمة مع المتغيرات- المجال الصحي- الاستثمار في الاقتصاد المنتج أي الاقتصاد في قطاعي الزراعة والصناعة- إزالة العوائق القانونية والإدارية التي تحد من التعاون بين الاقتصادات العربية ومن تدفق الاستثمارات العربية والخارجية.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج المنتدى، خبر صحفي',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3050,7 +3050,7 @@ export default async function() {
               'The recommendations emphasized the need to support the advancement of this important industrial sector in the region, in particular through the development of human resources, and assistance from the international R&amp;D and cooperation programs.\n' +
               'Downloadable files:\n' +
               'Participants list',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الملتقى الأول للصناعات النسيجية العربية',
@@ -3059,7 +3059,7 @@ export default async function() {
               'ركزت التوصيات على الدعم للنهوض بهذا القطاع الصناعي الهام في المنطقة وبالأخص من خلال تطوير الكوادر البشرية، والاستعانة ببرامج التعاون والبحث والتطوير الدولية.\n' +
               'ملفات للتنزيل:\n' +
               'قائمة المشاركين',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3083,11 +3083,11 @@ export default async function() {
               create: [
                 {
                   title: 'Arab Textile Industries 1st Forum',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى الأول للصناعات النسيجية العربية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3113,7 +3113,7 @@ export default async function() {
               'The forum gave chance for AFEI Board members (known businessmen on the Arab level) to communicate and confer with their peers. The general secretariat sent a letter to organizers expressing appreciation of AFEI delegation for the welcome and discussions in the Forum.\n' +
               'Downloadable files:\n' +
               'Agenda (en)',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'منتدى الاقتصاد العربي',
@@ -3122,7 +3122,7 @@ export default async function() {
               '&nbsp;كان المنتدى فرصة للتواصل والتباحث بين مجلس إدارة الاتحاد العربي للصناعات الهندسية وهم رجال أعمال معروفين على المستوى العربي مع نظرائهم. وقد أرسلت الأمانة العامة رسالة إلى المنظمين تعبر عن تقدير أعضاء الاتحاد للترحيب الذي شهدوه وللحوار والمناقشات التي شاركوا بها في المنتدى.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج المنتدى (ع)',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3157,7 +3157,7 @@ export default async function() {
               'It was agreed to accept certificates of conformity and standards in both countries and to revise customs procedures in order to facilitate the inter-trade.\n' +
               'Downloadable files:\n' +
               'Media articles',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ملتقى مجلس رجال الأعمال السوري-المصري',
@@ -3167,7 +3167,7 @@ export default async function() {
               'تم الاتفاق على قبول شهادات المطابقة والمواصفات في كلا البلدين ومراجعة الإجراءات الجمركية من أجل تسهيل إجراءات التجارة البينية.\n' +
               'ملفات للتنزيل:\n' +
               'أخبار الصحف',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3190,11 +3190,11 @@ export default async function() {
               create: [
                 {
                   title: 'SY-EG Businessmen Council ',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'رجال الأعمال السوري-المصري',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3218,14 +3218,14 @@ export default async function() {
             excerpt: 'Electing Chairmen and Vice-Chairmen for the five divisions of the Arab sectoral federations as recommended by the CAEU committee on developing methods of federations work.',
             content: 'CAEU invited Chairmen and General Secretaries of the Arab sectoral federations working under its umbrella to attend this preparatory meeting designated to discuss the recommendations of "CAEU committee on developing methods of federations work" then electing chairmen and vice-chairmen for the five divisions (Industry &amp; Production, Transportation, Services, Investment, Culture &amp; Information).\n' +
               'AFEI Chairman and General Secretary participated in the meeting where the AFEI Chairman was elected as a Deputy for the "Industry &amp; Production" division within the new structure of the Arab sectoral federations.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع التحضيري للدورة /38/ للاتحادات العربية النوعية التخصصية',
             excerpt: 'انتخاب رؤساء ونواب رؤساء القطاعات الخمسة للاتحادات العربية النوعية التخصصية وفق توصيات لجنة تطوير أساليب العمل بالاتحادات في مجلس الوحدة الاقتصادية العربية.',
             content: 'وجه مجلس الوحدة الاقتصادية العربية الدعوة لرؤساء وأمناء الاتحادات العربية النوعية المتخصصة العاملة في نطاقه لحضور الاجتماع التحضيري المخصص لمناقشة توصيات لجنة تطوير أساليب العمل بالاتحادات في المجلس وانتخاب رؤساء ونواب رؤساء القطاعات الخمسة المقترحة (الصناعة والإنتاج، النقل، الخدمات، الاستثمار، الثقافة والمعلومات).\n' +
               'شارك رئيس الاتحاد والأمين العام في هذا الاجتماع حيث تم اختيار رئيس الاتحاد كنائب رئيس قطاع الإنتاج في الهيكلية الجديدة للاتحادات العربية النوعية التخصصية.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3259,7 +3259,7 @@ export default async function() {
               'Participants stressed the need for CAEU to focus on simplifying the procedures, and modernizing the legislations that govern companies, as well as providing mobility for Arab businessmen and investors across the Arab countries.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع الدوري /38/ للاتحادات العربية النوعية المتخصصة',
@@ -3269,7 +3269,7 @@ export default async function() {
               'أكد المشاركون على ضرورة تركيز مجلس الوحدة الاقتصادية العربية على تسهيل الإجراءات وتحديث القوانين الحاكمة للمنشآت وتوفير حرية الحركة والتنقل لرجال الأعمال والمستثمرين العرب بين الدول العربية.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3301,7 +3301,7 @@ export default async function() {
             content: 'The forum witnessed high-level participation of leaders as well as senior Arab and international experts &amp; intellectuals. The broad framework for dialogue was the big questions facing investors and officials in the region, notably: what the new image of the Arab world? What are the new dynamics that will determine the political and economic choices, and what is the expected impact of these choices on the business environment and investment? Will the process of economic openness that provided incentives to attract foreign investments continue?\n' +
               'Downloadable files:\n' +
               'Agenda (en), Material',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'منتدى الاقتصاد العربي',
@@ -3310,7 +3310,7 @@ export default async function() {
               'ماهي الديناميات الجديدة التي ستحدد خياراته السياسية والاقتصادية، وماهو الأثر المتوقع لهذه الخيارات على بيئة الأعمال والاستثمار؟ هل ستستمر عملية الانفتاح الاقتصادي التي وفرت الحوافز المناسبة لجذب الاستثمارات الخارجية؟\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع (ع)، منشورات عن المنتدى',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3346,7 +3346,7 @@ export default async function() {
               'It was agreed to hold the next annual meeting of the federations in November 2012.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع الدوري /39/ للاتحادات العربية النوعية المتخصصة',
@@ -3357,7 +3357,7 @@ export default async function() {
               'تم الاتفاق على عقد الاجتماع السنوي القادم للاتحادات في شهر تشرين الثاني / نوفمبر 2012\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3380,11 +3380,11 @@ export default async function() {
               create: [
                 {
                   title: 'Arab Sectoral Federations no. 39',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الاجتماع الدوري /39/ للاتحادات ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3396,11 +3396,11 @@ export default async function() {
               create: [
                 {
                   title: 'Arab Sectoral Federations no. 39',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الاجتماع الدوري /39/ للاتحادات ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3412,11 +3412,11 @@ export default async function() {
               create: [
                 {
                   title: 'Arab Sectoral Federations no. 39',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الاجتماع الدوري /39/ للاتحادات ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3443,7 +3443,7 @@ export default async function() {
               'Representatives of the civil society institutions also discussed their proposals to activate the role of their institutions in the field of humanitarian aid.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع منظمات المجتمع المدني في المجلس الاقتصادي والاجتماعي للجامعة العربية',
@@ -3453,7 +3453,7 @@ export default async function() {
               'كما تداول ممثلو مؤسسات المجتمع المدني بخصوص مقترحاتهم لتفعيل دور مؤسساتهم في مجال المساعدات الإنسانية.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3487,7 +3487,7 @@ export default async function() {
               'Information was sent to the CAEU General Secretariat enclosed with a formal letter from AFEI at the beginning of March.\n' +
               'Downloadable files:\n' +
               'Letter from CAEU',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'تقييم دور الاتحادات العربية النوعية المتخصصة في العمل العربي المشترك',
@@ -3497,7 +3497,7 @@ export default async function() {
               'أرسلت المعلومات إلى الأمانة العامة لمجلس الوحدة الاقتصادية بكتاب رسمي من الاتحاد في مطلع شهر آذار/مارس.\n' +
               'ملفات للتنزيل:\n' +
               'كتاب مجلس الوحدة الاقتصادية العربية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3520,11 +3520,11 @@ export default async function() {
               create: [
                 {
                   title: 'CAEU Questionnaire',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'تقييم دور الاتحادات العربية ',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3550,7 +3550,7 @@ export default async function() {
               'The meeting aimed at discussing possibilities to make use of the Scottish experience in the field of developing SMEs in order to develop similar enterprises in the Arab region which has an urgent need for such enterprises.\n' +
               'CAEU General Secretary pointed out that the interest in getting introduced to international experiences in the field of developing SMEs comes from the need to create a mechanism to activate the role of the Arab SMEs Fund that was established last year.\n' +
               'As a result of the discussions, it was agreed to continue the communication between AFEI and the Scottish Aid and to prepare for two meetings, the first encompasses Scottish experts and their peers from the Arab countries to be held in Cairo next Marsh, and the second for specialists from the Arab region to visit Scotland and get introduced to the details of the experience.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'لقاء المدير الإقليمي لهيئة المعونة الاسكتلندية',
@@ -3559,7 +3559,7 @@ export default async function() {
               'هدف اللقاء إلى بحث إمكانيات الاستفادة من التجربة الإسكتلندية في مجال تنمية المنشآت الصغيرة والمتوسطة في تطوير الصناعات المشابهة في الوطن العربي حيث أن الحاجة اليوم ملحة لمثل هذا النوع من المنشآت.\n' +
               'لفت الأمين العام لمجلس الوحدة الاقتصادية العربية إلى أن الاهتمام بالاطلاع على تجارب عالمية في تطوير المنشآت الصغيرة والمتوسطة يعود إلى الحاجة لوضع آلية لتفعيل الصندوق العربي لتمويل المنشآت الصغيرة والمتوسطة الذي تم إنشاؤه في العام الماضي.\n' +
               'وبعد المناقشة تقرر استمرار التواصل بين الإتحاد وهيئة المعونة الإسكتلندية للإعداد للقائين، الأول في القاهرة في غضون شهر مارس المقبل لعدد من الخبراء الإسكتلنديين مع نظرائهم من الجانب المصري والعربي، والثاني في اسكتلندا لمتخصصين من الجانب المصري والعربي للتعرف العملي على التجربة الإسكتلندية على أرض الواقع.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3594,7 +3594,7 @@ export default async function() {
               'The seminar presented some pilot experiences in applying the SR standard; one is the experience of Madar Aluminum Company (represented by Mr.Hassan Daaboul) which is a member of AFEI.\n' +
               'Downloadable files:\n' +
               'Presentations',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ندوة التوعية الوطنية الأولى للمسؤولية المجتمعية',
@@ -3605,7 +3605,7 @@ export default async function() {
               'عرضت تجارب وطنية رائدة في تطبيق مواصفة المسؤولية المجتمعية خلال الندوة ومن أبرزها تجربة شركة مدار للألمنيوم (ممثلة بالأستاذ حسان دعبول) وهي من أعضاء الاتحاد.\n' +
               'ملفات للتنزيل:\n' +
               'العروض التقديمية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3637,7 +3637,7 @@ export default async function() {
             content: 'AFEI representative participated in the first consultation meeting for the private sector that was organized by CAEU with the aim to discuss ways of responding to the changing context in the Arab region and the challenge of promoting inter-Arab countries investments.\n' +
               'Representatives of the sectroal federations in the council, and a group of Arab businessmen and investors joined the meeting.\n' +
               'A distinguished idea that was discussed in the meeting is that the issue of unemployment in the Arab countries (especially Egypt) is actually an issue of unskilled workforce; and the solution lies in Education &amp; Training.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع التشاوري الأول للقطاع الخاص',
@@ -3645,7 +3645,7 @@ export default async function() {
             content: 'شارك ممثل الاتحاد في الاجتماع التشاوري الأول للقطاع الخاص الذي عقده مجلس الوحدة الاقتصادية العربية بهدف مناقشة سبل التفاعل مع الأوضاع المتغيرة في الوطن العربي ومحاولة الخروج منها بما يشجع الاستثمارات العربية البينية.\n' +
               'حضر الاجتماع ممثلو الاتحادات النوعية في المجلس ومجموعة من رجال الأعمال والمستثمرين العرب.\n' +
               'من أبرز الأفكار التي نوقشت مسألة أن البطالة في الدول العربية (وخاصة مصر) ليست هي المشكلة وإنما هي عدم توفر العمالة الماهرة، والحل يكمن في التعليم والتدريب.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3685,7 +3685,7 @@ export default async function() {
               'United Nations Development Program in Syria\n' +
               'Downloadable files\n' +
               'WS Agenda, Presentation',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'إطلاق تقرير سوق العمل 2010-2011 في سورية',
@@ -3701,7 +3701,7 @@ export default async function() {
               'برنامج الأمم المتحدة الإنمائي في سورية\n' +
               'ملفات للتنزيل:\n' +
               'برنامج ورشة العمل، العرض التقديمي',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3732,14 +3732,14 @@ export default async function() {
             excerpt: 'The representatives of the business sector and the Education sector discussed amendments to the third draft of Decree establishing the "National Commission for TVET". The commission is meant to work on making the TVET system flexible and responsive to the changes in the LM.',
             content: 'AFEI members from Syria participated -as representatives of the business sector- in the meeting of National Apprenticeship Committee that was dedicated to discuss the necessary amendments on the proposed decree to establish the "National Commission for TVET" from the perspective of employers so that it allows the commission to work on making the TVET system more flexible and responsive to developments in the LM.\n' +
               'Worth noting that the proposal to establish a commission followed years of cooperation between the education and business sectors which enabled partners to get introduced to experiences of other developed countries through the Apprenticeship Project (implemented by ETF) and the Modernization of VET System in Syria Program (proposed 3 scenarios for the commission). So; experience in public-private partnership was built on pilot level before setting the legal and administrative framework needed to effectively serve that partnership.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع اللجنة الوطنية للتلمذة المهنية',
             excerpt: 'بمشاركة ممثلي قطاع الأعمال وقطاع التربية، نوقشت التعديلات على المسودة الثالثة لمقترح مرسوم إنشاء "الهيئة الوطنية للتعليم والتدريب المهني والتقاني" التي ستعنى بجعل منظومة التعليم والتدريب المهني والتقاني مرنة وقادرة على متابعة تطورات سوق العمل',
             content: 'شارك بعض أعضاء الاتحاد من سورية كممثلين عن قطاع الأعمال في اجتماع اللجنة الوطنية للتلمذة المهنية الذي خصص لمناقشة التعديلات المطلوبة على المرسوم المقترح لإنشاء "الهيئة الوطنية للتعليم والتدريب المهني والتقاني" من جانب أصحاب العمل بحيث تسمح للهيئة بالعمل على جعل منظومة التدريب والتعليم المهني والتقاني مرنة وقادرة على متابعة تطورات سوق العمل.\n' +
               'الجدير بالذكر أن اقتراح إنشاء الهيئة المذكورة جاء بعد عدة سنوات من التعاون بين قطاع التربية وقطاع الأعمال التي سمحت بالاطلاع على تجارب العديد من الدول المتقدمة من خلال خبراء مؤسسة التدريب الأوربية التي نفذت مشروع التلمذة الصناعية وخبراء مشروع تحديث التعليم والتدريب المهني الذين ساهموا في وضع ثلاث سيناريوهات للهيئة المقترحة. وبذلك فإن بناء الخبرة في الشراكة بين القطاعين جاء على مستوى تجريبي قبل وضع الإطار التشريعي والإداري اللازم لخدمة هذه الشراكة بفعالية.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3775,7 +3775,7 @@ export default async function() {
               'TRISMED Website\n' +
               'Downloadable files:\n' +
               'Program (En), Conclusions (En), AFEI report, Presentation from Syria ',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر إطلاق مشروع تريسميد 4 ',
@@ -3787,7 +3787,7 @@ export default async function() {
               'الموقع الإلكتروني لمشروع تريسميد\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج (ع)، نتائج المؤتمر (ع)، التقرير، عرض تقديمي عن تدريب الشباب في سورية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -3811,11 +3811,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3827,11 +3827,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3843,11 +3843,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3859,11 +3859,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3875,11 +3875,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3891,11 +3891,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3907,11 +3907,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3923,11 +3923,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3939,11 +3939,11 @@ export default async function() {
               create: [
                 {
                   title: 'TRESMED 4 Paris 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ترسميد 4 باريس 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -3971,7 +3971,7 @@ export default async function() {
               'Forum On iMOVE website\n' +
               'Downloadable files:\n' +
               'Flyer, Program, Report, Presentations sessions1, sessions2, sessions3, sessions4',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الملتقى الألماني-العربي الثالث حول التعليم والتدريب المهني',
@@ -3983,7 +3983,7 @@ export default async function() {
               'المنتدى على الموقع الإلكتروني لـ iMOVE\n' +
               'ملفات للتنزيل:\n' +
               'المنشور، البرنامج، تقرير المشاركة، العروض التقديمية الجلسة الأولى، الجلسة الثانية، الجلسة الثالثة، الجلسة الرابعة',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -4007,11 +4007,11 @@ export default async function() {
               create: [
                 {
                   title: 'Edu.&Vocational Training Forum 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'Edu.&Vocational Training Forum 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4035,13 +4035,13 @@ export default async function() {
             excerpt: 'The Arab Administrative Development Organization organized the forum in cooperation with the HRD Ministry in Sudan, and JIAD hosted the third day and introduced its experience and partnership with the ministry in the field of training and qualification.',
             content: 'The forum was organized in cooperation between Arab Administrative Development Organization (ARADO) and the HRD Ministry in Sudan, and attracted broad participation from the Arab countries. Model experiences in the field of successful managerial practices were presented to the audience.\n' +
               'In the third day, after a field visit to GIAD Industrial Group, participants were introduced to the experience of GIAD in implementing total quality system and excellence model.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الملتقى الرابع للممارسات الإدارية الناجحة',
             excerpt: 'نظمت المنظمة العربية للتنمية الإدارية الملتقى بالتعاون مع وزارة تنمية الموارد البشرية في السودان، وجياد تحتضن اليوم الثالث وتقدم تجربتها وشراكتها مع الوزارة في مجال التدريب والتأهيل. ',
             content: 'نظم الملتقى بالتعاون بين المنظمة العربية للتنمية الإدارية ووزارة تنمية الموارد البشرية في السودان. وقد حظي الملتقى بمشاركة واسعة من الدول العربية وقدم تجارب نموذجية لممارسات إدارية ناجحة من الأقطار العربية للحضور.في اليوم الثالث، اطلع المشاركون على تجربة مجموعة جياد الصناعية في تطبيق الجودة الشاملة وجائزة التميز بعد زيارة ميدانية في منشآتها.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -4078,7 +4078,7 @@ export default async function() {
               'Forum at Tunisian Industry Portal, Arab Industrial Development and Mining Organization\n' +
               'Downloadable files:\n' +
               'Agenda, Brochure, The final statement',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة',
@@ -4090,7 +4090,7 @@ export default async function() {
               'ما ذكر في بوابة الصناعة التونسية، المنظمة العربية للتنمية الصناعية والتعدين\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج، البروشور، البيان الختامي',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -4114,11 +4114,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4130,11 +4130,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4146,11 +4146,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4162,11 +4162,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4178,11 +4178,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4194,11 +4194,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4210,11 +4210,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4226,11 +4226,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4242,11 +4242,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4258,11 +4258,11 @@ export default async function() {
               create: [
                 {
                   title: '6th Arab Forum on SMEs - Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الملتقى العربي السادس للصناعات الصغيرة والمتوسطة - تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4296,7 +4296,7 @@ export default async function() {
               'Project description on gtz website\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ورشة عمل حول مسودة دراسة منظومة الإبداع الوطنية في سورية',
@@ -4313,7 +4313,7 @@ export default async function() {
               'وصف المشروع على موقع الوكالة الألمانية للتعاون الفني\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -4336,11 +4336,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4352,11 +4352,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4368,11 +4368,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4384,11 +4384,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4400,11 +4400,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4416,11 +4416,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4432,11 +4432,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4448,11 +4448,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4464,11 +4464,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4480,11 +4480,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4496,11 +4496,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4512,11 +4512,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4528,11 +4528,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ WS 2009 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ورشة عمل giz في 2009 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4565,7 +4565,7 @@ export default async function() {
               'Related links: Project description on gtz website\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ندوة إقليمية حول تعزيز منظومات الإبداع الوطنية',
@@ -4579,7 +4579,7 @@ export default async function() {
               'روابط ذات صلة: وصف المشروع على موقع الوكالة الألمانية للتعاون الفني\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -4603,11 +4603,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4619,11 +4619,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4635,11 +4635,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4651,11 +4651,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4667,11 +4667,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4683,11 +4683,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4699,11 +4699,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4715,11 +4715,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4731,11 +4731,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4747,11 +4747,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4763,11 +4763,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4779,11 +4779,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4795,11 +4795,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4811,11 +4811,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4827,11 +4827,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4843,11 +4843,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4859,11 +4859,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4875,11 +4875,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4891,11 +4891,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4907,11 +4907,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4923,11 +4923,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4939,11 +4939,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4955,11 +4955,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4971,11 +4971,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -4987,11 +4987,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5003,11 +5003,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5019,11 +5019,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5035,11 +5035,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5051,11 +5051,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5067,11 +5067,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5083,11 +5083,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5099,11 +5099,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5115,11 +5115,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5131,11 +5131,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5147,11 +5147,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5163,11 +5163,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5179,11 +5179,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5195,11 +5195,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5211,11 +5211,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5227,11 +5227,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5243,11 +5243,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5259,11 +5259,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5275,11 +5275,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5291,11 +5291,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5307,11 +5307,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5323,11 +5323,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5339,11 +5339,11 @@ export default async function() {
               create: [
                 {
                   title: 'GIZ Seminar 2010 Syria',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'ندوة giz في 2010 - سورية',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5371,7 +5371,7 @@ export default async function() {
               'Downloadable files:\n' +
               'Workshop program\n' +
               'CMI Brochure (en)',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ورشة عمل "خدمات للشركات المبدعة"',
@@ -5382,7 +5382,7 @@ export default async function() {
               'ملفات للتنزيل:\n' +
               'برنامج الورشة\n' +
               'بروشور مركز مرسيليا للتكامل المتوسطي (ع)',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5415,7 +5415,7 @@ export default async function() {
             content: 'As a representative of the business sector, AFEI General Secretary attended the meeting that was organized by the EU Delegation with the objective to assess the accomplishments of the SMEs Support Program (SSP) financed by the EU.\n' +
               "The representative of&nbsp; the EC pointed out that the objective of this meeting and subsequent meetings is to work on a final evaluation of the SSP which finished its activities mid 2010, and that the evaluation is using multiple criteria based on the inception report, the annual work reports, and the feedback from the private sector about accomplishments. He asserted that the aim is to identify the program's weaknesses in order to avoid them in the next phase.\n" +
               'Representative of the Ministry of Economy and Trade summarized the accomplishments of the program in the field of supporting the business sector (incubation) and supporting the ministry itself on policies/strategies level (awareness raising, and adopting a national definition of SMEs).',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع تقييم برنامج دعم المشاريع الصغيرة والمتوسطة في سورية ',
@@ -5423,7 +5423,7 @@ export default async function() {
             content: 'بصفته ممثلاً لقطاع الأعمال، حضر الأمين العام للاتحاد الاجتماع الذي نظمته بعثة المفوضية الأوربية بهدف تقييم برنامج دعم المشاريع الصغيرة والمتوسطة الممول من الاتحاد الأوربي.\n' +
               'بدأ ممثل بعثة المفوضية الأوربية بتبيان الهدف من هذا الاجتماع والاجتماعات اللاحقة وهو العمل على إجراء تقييم نهائي لبرنامج دعم المنشآت الصغيرة والمتوسطة الذي أنهى نشاطاته في منتصف 2010، وأن التقييم سيتم باستخدام معايير متعددة اعتماداً على التقرير التمهيدي، وتقارير العمل السنوية، والتغذية الراجعة من القطاع الخاص حول إنجازات البرنامج. والهدف من ذلك هو تحديد مواطن الضعف والعمل على تجنبها للارتقاء بالبرنامج في المرحلة القادمة.\n' +
               'لخصت ممثلة وزارة الاقتصاد والتجارة إنجازات البرنامج على صعيد دعم قطاع الأعمال (الحاضنات) ودعم الوزارة في السياسات والاستراتيجيات (رفع الوعي، اعتماد تعريف وطني للمنشآت الصغيرة والمتوسطة).',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5456,7 +5456,7 @@ export default async function() {
               'AFEI coordinated with the Syrian members in nominating representatives of their companies who would become core trainers.\n' +
               'Related links:\n' +
               'World Intellectual Property OrganizationSyrian Patent Office New law for patents in Syria',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ورشة عمل تدريب مدربين حول الإدارة الفعالة لأصول الملكية الفكرية لصالح الشركات الصغيرة والمتوسطة',
@@ -5465,7 +5465,7 @@ export default async function() {
               'ساهم الاتحاد في التنسيق مع الأعضاء في سورية لترشيح ممثلين عن شركاتهم ليصبحوا مدربين أساسيين.\n' +
               'الروابط ذات الصلة:\n' +
               'موقع المنظمة العالمية لحماية حقوق الملكية الفكرية&nbsp;موقع مكتب براءات الاختراع السوريقانون براءات الاختراع في سورية ',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5499,7 +5499,7 @@ export default async function() {
               'One of the topics presented to the Council was the evaluation study of Arab sectoral federations working under its umbrella that was conducted by its general secretariat. The Council appreciated the efforts of its general secretariat in preparing the study, and decided to assign to the general secretariat the task to review the position of these federations and their regional offices, and to postpone the publication of the information booklet of the federations until after clarifying the position of some federations.\n' +
               'Related links:\n' +
               'Study of Arab sectoral federations',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع /94/ لمجلس الوحدة الاقتصادية العربية',
@@ -5507,7 +5507,7 @@ export default async function() {
             content: 'بناءً على دعوة الأمانة العامة لمجلس الوحدة الاقتصادية العربية شارك ممثلي الاتحاد في اجتماع المجلس الدوري /94/ حيث تسلمت المملكة الأردنية الهاشمية رئاسة المجلس للدورة القادمة. من أبرز المواضيع التي عرضت على المجلس الدراسة التقييمية للاتحادات العربية النوعية المتخصصة العاملة في نطاقه التي نفذتها الأمانة العامة للمجلس. وقد ثمن المجلس جهود أمانته العامة في إعداد الدراسة، وقرر تكليف الأمانة العامة بدراسة موقف الاتحادات ومكاتبها الإقليمية وإرجاء تنفيذ الكتاب التعريفي للاتحادات لحين البت في موقف بعضها.\n' +
               'روابط ذات صلة:\n' +
               'الدراسة التقييمية للاتحادات العربية النوعية المتخصصة',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5544,7 +5544,7 @@ export default async function() {
               'Investment project, Event on the OECD Website\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اللقاء الرابع لمجموعة عمل MENA-OECD حول سياسات المنشآت الصغيرة والمتوسطة، وريادة الأعمال، وتنمية الموارد البشرية',
@@ -5558,7 +5558,7 @@ export default async function() {
               'الموقع الإلكتروني لمشروع الإستثمار، ورشة العمل على الموقع الإلكتروني لمنظمة التعاون الاقتصادي والتنمية في دول الشرق الأوسط وشمال افريقيا\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5581,11 +5581,11 @@ export default async function() {
               create: [
                 {
                   title: '4th meeting of MENA-OECD WG, Tunisia',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اللقاء الرابع لمجموعة عمل MENA-OECD  في تونس',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5614,7 +5614,7 @@ export default async function() {
               'The final activity was a field visit to the new facilities of SULB factories in Al-Had industrial zone.\n' +
               'Downloadable files:\n' +
               'Program, Press release',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للحديد والصلب',
@@ -5626,7 +5626,7 @@ export default async function() {
               'اختتمت الاجتماعات بزيارة ميدانية إلى منشآت مصنع SULB&nbsp; التي بنيت حديثاً في منطقة الحد الصناعية.\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج، نشرة صحفية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5664,7 +5664,7 @@ export default async function() {
               'Quality Syria Website\n' +
               'Downloadable files:\n' +
               'Program',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع إطلاق إعادة هيكلة وتحديث منظومة المواصفات القياسية في سورية',
@@ -5677,7 +5677,7 @@ export default async function() {
               'الموقع الالكتروني للجودة في سورية\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5718,7 +5718,7 @@ export default async function() {
               '5) Definition of common position papers in a specific topic\n' +
               '6) Definition of common action plan in a specific topic linked to continuing training\n' +
               'In countries where Social Partners have no or very limited experience in dealing with VET issues, the ETF&rsquo;s work will probably focus on the first three steps. In countries where social partners have already experience in cooperating with VET issues, the ETF could start from working at step 4 facilitating a more technical work on a specific topic.\n',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر إطلاق المشروع الإقليمي "الشراكة الاجتماعية في مجال التعليم والتدريب المهني في منطقة جنوب وشرق المتوسط" ',
@@ -5737,7 +5737,7 @@ export default async function() {
               'المشروع على الموقع الإلكتروني لمؤسسة التدريب الأوروبية\n' +
               'ملفات للتنزيل:\n' +
               'البرنامج',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5761,11 +5761,11 @@ export default async function() {
               create: [
                 {
                   title: 'Social Partnership in VET - Italy 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الشراكة الاجتماعية في مجال التعليم والتدريب المهني - إيطاليا 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5777,11 +5777,11 @@ export default async function() {
               create: [
                 {
                   title: 'Social Partnership in VET - Italy 2011',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'الشراكة الاجتماعية في مجال التعليم والتدريب المهني - إيطاليا 2011',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -5806,7 +5806,7 @@ export default async function() {
             content: 'In March 2010, the Higher Commission for Scientific Research (HCSR) started the implementation of activities within its project for "Setting the national policy for science, technology, and innovation in Syria". Since its beginning, AFEI General Secretary has been involved in this project as one of the representatives of business sector.\n' +
               'Activities started with distributing a questionnaire to various institutions concerned with setting and implementing the national policy for science, technology and innovation with the objective to assess the development sectors according to specific criteria (economic, scientific, social, and strategic significance) and the impact of research topics on each sector in order to define priority topics for research and development. Then, on2/3/2010, a workshop was organized with participation of a large number of researchers and business sector representatives where priorities of scientific research were discussed. Based on the results of the questionnaire, the priority sectors were defined (energy, agriculture, industry, water, health, communication, and capacity building); HCSR board of directors then added the "environment" to priority sectors.\n' +
               'Sectoral committees were established with a resolution of the prime minister and assigned the task of analyzing the status-quo of each sector, examining the future trends in it, and offering proposals for developing the sector through scientific research and technological development in harmony with priorities adopted for the sector and the 11th Five Year Plan. AFEI General Secretary participated in meetings and activities of the "Industry sector committee" as a representative of the business sector, and contributed with a paper on the AFEI vision for science, technology, and innovation policy in the engineering sector. The committee presented its proposal which was discussed in a workshop on 23/12/2010 with participation of the AFEI General Secretary and consultant from AFEI Damascus Office.\n',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مشروع رسم السياسة الوطنية للعلوم والتقانة والابتكار في سورية',
@@ -5816,7 +5816,7 @@ export default async function() {
               'تم تشكيل لجان قطاعية بقرار من رئيس مجلس الوزراء مهمتها تحليل الواقع الراهن للقطاع ودراسة توجهات العمل المستقبلية فيه وتقديم المقترحات لتطوير القطاع من خلال توظيف البحث العلمي والتطوير التقاني بما يتوافق مع الأولويات المعتمدة للقطاع والخطة الخمسية الحادية عشرة. ولقد شارك الأمين العام للاتحاد في اجتماعات ونشاطات لجنة "قطاع الصناعة" كممثل لقطاع الأعمال كما قدم مقترح الاتحاد لرؤية السياسة الوطنية للعلوم والتقانة والابتكار في قطاع الصناعات الهندسية لهذه اللجنة. قدمت لجنة قطاع الطاقة مقترحاتها ونوقشت في ورشة عمل بتاريخ 23/12/2010 بمشاركة الأمين العام للاتحاد والاستشارية لدى مكتب الاتحاد بدمشق.\n' +
               'روابط ذات صلة:\n' +
               'موقع الهيئة العليا للبحث العلمي على الإنترنتالأنشطة اللاحقة للمشروع خلال عام 2011',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5850,7 +5850,7 @@ export default async function() {
               'With a resolution of the prime minister, a "Scientific, advisory, specialized committee in the industry sector" was established under the umbrella of HCSR, and AFEI General secretary is participating as a representative of the business sector. In summary, the committee is a platform for coordination amongst HCSR and represented institutions which will contribute in examining issues and topics related to the industry sector from a research and technology perspective, as well as in following up the implementation of project resolutions related to the industry sector.\n' +
               'Related links:\n' +
               'HCSR websiteScientific Research Information System websiteActivities of this project in 2011 ',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مشروع رسم السياسة الوطنية للعلوم والتقانة والابتكار في سورية',
@@ -5859,7 +5859,7 @@ export default async function() {
               'بقرار من رئيس مجلس الوزراء تم تشكيل "لجنة علمية استشارية تخصصية في مجال الصناعة" تحت مظلة الهيئة بمشاركة الأمين العام للاتحاد كممثل عن قطاع الأعمال. تتلخص مهام اللجنة في كونها المنصة للتنسيق بين الهيئة وبين الجهات الممثلة في اللجنة وستساهم في دراسة القضايا والموضوعات التي تتعلق بقطاع الصناعة من منظور بحثي وتقاني وكذلك في متابعة تنفيذ قرارات المشروع بما يخص قطاع الصناعة.\n' +
               'روابط ذات صلة:\n' +
               'موقع الهيئة العليا للبحث العلمي على الإنترنتموقع نظام معلومات البحث العلمي على الإنترنتالأنشطة السابقة للمشروع خلال عام 2011',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5900,7 +5900,7 @@ export default async function() {
               'Downloadable files:\n' +
               'Agenda of the meeting\n' +
               'Letter to the Syrian members of AFEI',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من مصر',
@@ -5915,7 +5915,7 @@ export default async function() {
               'ملفات للتنزيل:\n' +
               'جدول أعمال الاجتماع\n' +
               'الرسالة الموجهة للأخوة أعضاء الاتحاد في سورية',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -5953,7 +5953,7 @@ export default async function() {
               'Attendees agreed on holding the next general assembly meeting alongside the Calibration and Metrology conference that AFEI is organizing in cooperation with the Arab Federation for Metrology on 15-17/5/2010 in Cairo.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع أعضاء مجلس إدارة الاتحاد من مصر',
@@ -5967,7 +5967,7 @@ export default async function() {
               'اتفق الحضور على عقد اجتماع الجمعية العمومية للاتحاد على هامش مؤتمر المعايرة والقياس الذي ينظمه الاتحاد بالتعاون مع الاتحاد العربي للقياس والمعايرة خلال الفترة 15-17/5/2010.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6003,7 +6003,7 @@ export default async function() {
               'HCSR continued the project activities with the sectoral committees and work teams, and established an information system for scientific research on its website with the objective of linking scientific research institutions, and strengthen the links and channels between researchers.\n' +
               'Related links:\n' +
               'HCSR websiteScientific Research Information System websiteActivities of this project in 2010 Activities of this project in 2012',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مشروع رسم السياسة الوطنية للعلوم والتقانة والابتكار في سورية',
@@ -6015,7 +6015,7 @@ export default async function() {
               'تابعت الهيئة مبادرتها من خلال اللجان القطاعية وفرق العمل، وقد أحدثت نظام معلومات خاص بالبحث العلمي على موقعها على الإنترنت بهدف التنسيق بين الهيئات العلمية البحثية وتعزيز الصلة وقنوات وآليات الترابط بين الباحثين.\n' +
               'روابط ذات صلة:\n' +
               'موقع الهيئة العليا للبحث العلمي على الإنترنتموقع نظام معلومات البحث العلمي على الإنترنتالأنشطة السابقة للمشروع خلال عام 2010الأنشطة اللاحقة للمشروع خلال عام 2012',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6051,7 +6051,7 @@ export default async function() {
               'Downloadable files:\n' +
               'Workshop agenda\n' +
               'Presentation',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ورشة عمل "حماية الصناعة العربية في إطار قواعد منظمة التجارة العالمية"',
@@ -6062,7 +6062,7 @@ export default async function() {
               'ملفات للتنزيل:\n' +
               'برنامج الورشة\n' +
               'العرض التقديمي',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6100,7 +6100,7 @@ export default async function() {
               'Dr.Yafi, the General Secretary of AFEI mentioned that concepts changed around the globe, and the federation became more experienced in cooperating regionally, on the Arab level, and with the government. He confirmed that the cooperation of the group of employers with legislative and development institution nationally, regionally, and internationally created a brand name for the federation, and the federation is a counterpart in policy making and planning measures related to the sector. This would not have been possible without the faith each member has. Although the Federation umbrella brings the members closer, nevertheless, the priorities of each one in supporting the society and government are varied. Therefore, each country will focus on its own issues, i.e., the AFEI goals will be reached partially, and in different ways within the countries to fit their phase of development and priorities.\n' +
               'Downloadable files:\n' +
               'Agenda of the meetingsSpeech of AFEI Chairman of the BoardSpeech of AFEI General SecretryPresentation of the new strategic vision',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع الجمعية العمومية للاتحاد العربي للصناعات الهندسية – الدورة /27/',
@@ -6114,7 +6114,7 @@ export default async function() {
               'تحدث د.أحمد هيثم اليافي-الأمين العام للاتحاد في كلمته عن المفاهيم التي تغيرت في العالم وخبرة الاتحاد التي نمت في التعاون الدولي والإقليمي ومع الحكومة. وأكد أن تعاون هذا التجمع من أصحاب الأعمال مع مؤسسات تشريعية وتنموية محلية وعربية ودولية جعلت اسم الاتحاد معروفاً، وأصبح شريكاً في وضع السياسات والخطط التي تؤثر على قطاع الصناعات الهندسية، ولم يكن هذا ليكون لولا الإيمان العميق لدى كلٍ من الأعضاء. ولفت إلى أن وجود الأعضاء تحت مظلة الاتحاد يقارب بينهم، إلا أن هناك عدة أولويات للتفاعل مع المجتمع والتأثير الإيجابي في مساعدة الحكومات للوصول إلى قراراتها المناسبة لها في الأقطار المختلفة. لذلك فإن كل قطر سيركز على مواضيع خاصة تهمه أكثر من غيرها بطريقته وبسرعته، أي أن أهداف الاتحاد قد تتحقق جزئياً وبصورة مختلفة في كل بلد من البلدان، حيث تتناسب مع أولوياتها ومرحلة التطور الاقتصادي فيها.\n' +
               'ملفات للتنزيل:\n' +
               'جدول الأعمالكلمة رئيس مجلس إدارة الاتحادكلمة الأمين العام للاتحادالعرض التقديمي حول الرؤية الاستراتيجية للاتحاد',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6138,11 +6138,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6154,11 +6154,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6170,11 +6170,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6186,11 +6186,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6202,11 +6202,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6218,11 +6218,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6234,11 +6234,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6250,11 +6250,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6266,11 +6266,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6282,11 +6282,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6298,11 +6298,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6314,11 +6314,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6330,11 +6330,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6346,11 +6346,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6362,11 +6362,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6378,11 +6378,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6394,11 +6394,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6410,11 +6410,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6426,11 +6426,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6442,11 +6442,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6458,11 +6458,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6474,11 +6474,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6490,11 +6490,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6506,11 +6506,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6522,11 +6522,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6538,11 +6538,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6554,11 +6554,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6570,11 +6570,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6586,11 +6586,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6602,11 +6602,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6618,11 +6618,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6634,11 +6634,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6650,11 +6650,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6666,11 +6666,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6682,11 +6682,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6698,11 +6698,11 @@ export default async function() {
               create: [
                 {
                   title: '2013 General Assembly',
-                  locale: { connect: { name: 'en-US' } }
+                  locale_id: 'en-US'
                 },
                 {
                   title: 'اجتماع الجمعية العمومية 2013',
-                  locale: { connect: { name: 'ar-SY' } }
+                  locale_id: 'ar-SY'
                 }
               ]
             }
@@ -6729,7 +6729,7 @@ export default async function() {
               'Among other hot topics was the paper on private sector role in financing SMEs in the Arab countries. The focus was on innovative options for financing that are effective and in line with the society values.\n' +
               'Downloadable files:\n' +
               'Agenda',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع اللجنة الفنية لآلية تنمية الاستثمار والتجارة في البلاد العربية',
@@ -6739,7 +6739,7 @@ export default async function() {
               'من بين المواضيع الهامة كان ورقة العمل حول دور القطاع الخاص في تمويل المشروعات الصغيرة والمتوسطة العربية والتي ركزت على خيارات التمويل غير التقليدية الفعالة والمقبولة في إطار قيم المجتمع.\n' +
               'ملفات للتنزيل:\n' +
               'برنامج الاجتماع',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6772,7 +6772,7 @@ export default async function() {
               "The Chairman of the Arab Federation for Metrology presented a paper summarizing the federation's efforts towards unified standards for various products in order to facilitate the inter-Arab countries trade and the equal effort to harmonize the Arab standards with the international ones in order to open a market for the Arab products. He described the plan to build a quality assessment labs for food products within the ten member countries of the federation and then to expand to other products.\n" +
               'The General Secretary of the CAEU referred to the engagement of the Arab Sectoral Federations through the structure of five main sectors under the umbrella of CAEU and proposed an idea to establish a Board of Directors for the federations with CAEU acting as a secretariat for it. The discussion ended up with an agreement to give a chance to the federations to get their feedback about the effectiveness of this idea, and propose operational details in a designated meeting to be held mid January.\n' +
               'The attendees discussed the first draft of the proposed Arab Investment &amp; Trade working mechanism. It was agreed to form a working group and assign it the task of deepening the concepts of the mechanism and to present a paper to the meeting mid January.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع الدوري /41/ للاتحادات العربية النوعية المتخصصة',
@@ -6781,7 +6781,7 @@ export default async function() {
               'عرض رئيس الاتحاد العربي للقياس والمعايرة ورقة عمل تتضمن جهد الإتحاد في السعي إلى توحيد المواصفات العربية في العديد من السلع لتسهيل تداول هذه السلع داخل البلدان العربية والجهد الموازي للتقارب مع المواصفات الدولية لفتح مجال التسويق للمنتجات العربية. كما ذكر بأنه سيتم البدء في إنشاء مختبرات فحص جودة المواد الغذائية بالدول العربية العشر أعضاء الإتحاد لضمان سلامتها ثم التوسع في غيرها من المنتجات.\n' +
               'تحدث أمين عام مجلس الوحدة الاقتصادية العربية عن عمل الاتحادات العربية النوعية في هيكلية القطاعات الخمسة تحت مظلة المجلس، وعرض فكرة أن يتم تشكيل مجلس إدارة للإتحادات بحيث يعمل مجلس الوحدة الاقتصادية العربية كسكرتارية له. وانتهى النقاش إلى الاتفاق على إتاحة الفرصة أمام الاتحادات لإعداد وجهة نظرها في فعالية هذه الفكرة واقتراح آليات تنفيذها خلال اجتماع استثنائي يعقد للإتحادات العربية النوعية المتخصصة في منتصف شهر يناير القادم.\n' +
               'ناقش الحضور "ورقة عمل بمقترح أولي لنظــام عمـــل آلية الاستثمار والتجارة العربية"، وتم الاتفاق على تشكيل لجنة مصغرة لتعميق مفاهيم الآلية وتقديم ورقة إلى الاجتماع بمنتصف يناير القادم.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6815,7 +6815,7 @@ export default async function() {
               'The meeting agenda included latest updates in the steel manufacturing sector on the arab and international levels, and the establishment of a regional office for the union in the Gulf.\n' +
               'The attendees focused on the need for coordination and integration amongst the producers of steel to face the challenge that resulted from the increase of the raw material prices which impacted the cost of production. The chairman of the board emphasized the need to intensify the R&amp;D activities toward making use of the local raw material and developing the production technology in order to reduce the cost of production.\n' +
               'The topic of including Carbon emissions reduction programs and energy conservation measures within the future plans for the production facilities was promoted.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماعات الاتحاد العربي للحديد والصلب',
@@ -6824,7 +6824,7 @@ export default async function() {
               'تضمن جدول الاجتماعات أهم المستجدات على صعيد صناعة الصلب العربية والعالمية، وفتح مكتب إقليمي في منطقة الخليج العربي.\n' +
               'وقد ركز المشاركون في الاجتماعات على أهمية وضرورة التعاون والتنسيق والتكامل بين منتجي الصلب لمواجهة التحدي الذي يواجه صناعة الصلب العربي المتمثل في اتجاه مصدري الخامات والمواد الأولية الرئيسية اللازمة لهذه الصناعة إلى رفع أسعار الخامات والمستلزمات بنسب مرتفعة، مما أدى إلى زيادة كبيرة في تكلفة الإنتاج. وأكد رئيس مجلس إدارة الاتحاد العربي للحديد والصلب على ضرورة تكثيف أعمال البحث والتطوير على أسس علمية واقتصادية لزيادة الاعتماد قدر الإمكان على الخامات المحلية، وتطوير تكنولوجيا الإنتاج بما يسهم في خفض تكلفة الإنتاج.\n' +
               'كما ناقش المجتمعون أهمية مشروعات التوافق البيئي وخفض الانبعاثات وترشيد استهلاك الطاقة، ووضع ذلك في برامج التوسع المستقبلية لهذه الصناعة في المنطقة.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6858,7 +6858,7 @@ export default async function() {
               'Throughout the presentations of academic experts and officials in the relevant organizations, the conference tackled two themes:&nbsp;\n' +
               '1- Supporting competitiveness\n' +
               '2- Creativity and innovation in the competitive environment',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'مؤتمر التنافسية كمحرك للنمو الاقتصادي',
@@ -6885,7 +6885,7 @@ export default async function() {
               'تطور الحماية الدولية للملكية الصناعية من اتفاقية باريس إلى اتفاقية الجوانب المتصلة بالتجارة من حقوق الملكية الفكرية ( TRIPS)- الاقتصاد الإبداعي\n' +
               'دعم البحث العلمي للبيئة التنافسية: دعم وتنمية الموارد البشرية على الإبداع والابتكار\n' +
               '\n',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6915,7 +6915,7 @@ export default async function() {
             title: 'Annual meeting of the Arab Sectoral Federations no. 42',
             excerpt: 'The meeting presented studies and proposals that were submitted from the federations in the field of quality, maritime transportation, and technology innovation. The General Secretarial of the Arab Council for Economic Unity also presented a unified bylaw for the Arab sectoral federations',
             content: 'The meeting presented studies and proposals that were submitted from the federations in the field of quality, maritime transportation, and technology innovation. The General Secretarial of the Arab Council for Economic Unity also presented a unified bylaw for the Arab sectoral federations',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'الاجتماع الدوري /42/ للاتحادات العربية النوعية المتخصصة',
@@ -6932,7 +6932,7 @@ export default async function() {
               '\n' +
               '&nbsp;\n' +
               'كما قدمت الأمانة العامة للمجلس مذكرتها حول "النظام الأساسي للاتحادات العربية النوعية المتخصصة"',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -6963,7 +6963,7 @@ export default async function() {
             title: 'CAEU technical committee meeting: Investment and Trade promotion in the Arab countries',
             excerpt: 'The Committee addressed the business environment for SMEs in the Arab region and the development of technical & managerial capacities of the SMEs. A full package for establishing an Arab company for manufacturing tractors and agricultural machinery',
             content: 'The Committee addressed the business environment for SMEs in the Arab region and the development of technical &amp; managerial capacities of the SMEs. A full package for establishing an Arab company for manufacturing tractors and agricultural machinery',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع اللجنة الفنية لآلية تنمية الاستثمار والتجارة في البلاد العربية',
@@ -6979,7 +6979,7 @@ export default async function() {
               '\n' +
               '\n' +
               'كما قدمت الأمانة العامة للمجلس مذكرة حول "الملف المتكامل للإجراءات التأسيسية للشركة العربية للجرارات والآلات الزراعية"، و"ملف الاستثمار في الجمهورية العربية السورية".\n',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -7009,13 +7009,13 @@ export default async function() {
             title: 'Board of Directors meeting of the Arab Iron & Steel Union',
             excerpt: 'A representative of AFEI participated as an observer in the Board of Directors meeting of the Arab Iron & Steel Union. The meeting was held alongside the Sulb Summit, and emphasized the impact of dumping practices as well as the energy and oil prices on the competitiveness.',
             content: 'A representative of AFEI participated as an observer in the Board of Directors meeting of the Arab Iron &amp; Steel Union. The meeting was held alongside the Sulb Summit, and emphasized the impact of dumping practices as well as the energy and oil prices on the competitiveness.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماع مجلس إدارة الاتحاد العربي للحديد والصلب',
             excerpt: 'الاتحاد العربي للصناعات الهندسية يشارك كمراقب في اجتماع مجلس إدارة الاتحاد العربي للحديد والصلب الذي عقد بالتزامن مع قمة الصلب، والذي أبرز تأثر القطاع بالإغراق وبأسعار الطاقة والنفط.',
             content: 'بدعوة من الاتحاد العربي للحديد والصلب، حضر أ.محمد دعبول/عضو مجلس إدارة الاتحاد العربي للصناعات الهندسية اجتماع مجلس الإدارة الدوري رقم /110/.تمت مناقشة واقع الصناعة بشكل عام في الوطن العربي وذكر بأن هنالك تباطؤ في زيادة الانتاج خاصة بعد انخفاض أسعار النفط حيث أن الحديد والصلب يرتبط بأسعار النفط بشكل كبير.وناقش المجتمعون بعض المواضيع الهامة لقطاع الحديد والصلب ومن أبرزها حالات الإغراق وأسعار الطاقة التي تؤثر سلباً على القدرة التنافسية.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -7045,13 +7045,13 @@ export default async function() {
             title: 'Workshop on E-Commerce in the Arab region',
             excerpt: 'The General Secretariat of the Arab Council for Economic Unity organized the workshop with the aim to promote benefits and positive impact of the E-Commerce on the inter-Arab trade on the one hand, as well as to present the requirements for implementing E-Commerce applications in the Arab countries.',
             content: 'The General Secretariat of the Arab Council for Economic Unity organized the workshop with the aim to promote benefits and positive impact of the E-Commerce on the inter-Arab trade on the one hand, as well as to present the requirements for implementing E-Commerce applications in the Arab countries.',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'ورشة عمل التجارة الإلكترونية في الوطن العربي',
             excerpt: 'نظمت الأمانة العامة لمجلس الوحدة الاقتصادية العربية ووزارة الصناعة والتجارة والمشروعات الصغيرة والمتوسطة ورشة العمل التي هدفت لإبراز فوائد التجارة الإلكترونية وأثرها على التجارة العربية من ناحية، إضافة لاستعراض متطلبات تنفيذ تطبيقات التجارة الإلكترونية في الوطن العربي.',
             content: 'شارك م.رءوف كمال/الأمين العام المساعد للاتحاد العربي للصناعات الهندسية في ورشة عمل "التجارة الإلكترونية في الوطن العربي" التي نظمتها الأمانة العامة لمجلس الوحدة الاقتصادية العربية بالتعاون مع وزارة الصناعة والتجارة والمشروعات الصغيرة والمتوسطة بجمهورية مصر العربية.هدفت الورشة لتشجيع ونشر التجارة الإلكترونية من خلال مناقشة فوائدها وأثرها على التجارة العربية، ومن خلال تبادل الخبرات بين الدول العربية حول تحقيق متطلبات تنفيذ تطبيقات التجارة الإلكترونية في الوطن العربي.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -7085,7 +7085,7 @@ export default async function() {
               'In addition to discussing the common issues and problems facing cable manufacturers in the region, the conference hosted a number of key speakers in the fields of cable manufacturing &nbsp;and its related industries, as well as the fields of transportation and economic development.&nbsp;\n' +
               'Alongside the event, field visits around the city of Aswan were featured.\n' +
               'For more information, please visit the ArabCab website',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'المؤتمر العاشر لمصنعي الكابلات العرب ',
@@ -7093,7 +7093,7 @@ export default async function() {
             content: 'في مؤتمره العاشر "عرب كاب 2014" الذي نظم برعاية وزير الصناعة والتجارة في جمهورية مصر العربية استضاف تجمع مصنعي الكابلات العرب المنبثق عن الإتحاد مايقارب /40/ شركة من منتجي الكابلات ومورديهم إضافة لمركزي أبحاث Societe General Cross Asset Research وInteger Research Ltd..عقد المؤتمر العاشر لتجمع الكابلات في مدينة أسوان بجمهورية مصر العربية وركز على أهمية النقل في الوطن العربي لتنمية التجارة البينية.إلى جانب مناقشة المسائل والعوائق التي تواجه مصنعي الكابلات في المنطقة فقد استضاف المؤتمر متحدثين في مجال صناعة الكابلات والصناعات المغذية، وفي مجال النقل والتنمية الاقتصادية.\n' +
               'وعلى هامش المؤتمر كانت هناك زيارات لمواقع أثرية في أسوان.\n' +
               'لمزيد من المعلومات، يرجى زيارة موقع تجمع الكابلات العرب\n',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },
@@ -7129,7 +7129,7 @@ export default async function() {
               'On the discussion table also was the fact that AFEI includes a variety of different industries. Attendees agreed to consider this feature as an opportunity and proceed to establish homogeneous associations under the AFEI umbrella that would tackle specialized common issues. A good example of such endeavor is the Arab Cable Manufacturers Association which was launched in 2005.\n' +
               `Some fundamental barriers to inter-Arab trade and investments were acknowledged. These are: the additional fees (beside tariff) on the products, prices of energy in some Arab countries, and dumping. As an association of employers, AFEI is requested to lobby for overcoming some obstacles. For that, the young industrialists' representative proposed to hire bright youth and offer mentorship and framework for them to come up with studies on how to tackle such common barriers as well as to change the mentality of "what AFEI offers to members" into "what members can offer to AFEI".\n` +
               'Alongside the meetings, AFEI organized a seminar with two experts. Mr. Patrick Daru, ILO delivered a presentation titled "Employers participation in skills development", and Mr. Philip Chite, ESCWA delivered a presentation titled "Current and prospected trade opportunities for the engineering industries in the Arab world".',
-            locale: { connect: { name: 'en-US' } }
+            locale_id: 'en-US'
           },
           {
             title: 'اجتماعات الجمعية العمومية ومجلس إدارة الاتحاد',
@@ -7140,7 +7140,7 @@ export default async function() {
               'كما وضعت على طاولة النقاش مسألة هامة بخصوص ماينفرد به الاتحاد عن غيره من حيث تنوع الصناعات التي يضمها واختلافها والذي يمكن اعتباره فرصة وليس مشكلة بالعمل على إنشاء تجمعات متجانسة تحت مظلة الاتحاد تعنى بمواضيع متخصصة ومشاكل مشتركة مثل تجمع مصنعي الكابلات العرب الذي أنشئ في عام 2005.&nbsp;\n' +
               'ذكرت بعض العوائق الحقيقية أمام الاستثمارات والتجارة العربية البينية خلال الاجتماع ومن أهمها الرسوم "غير الجمركية" المفروضة على المنتجات، وتغير أسعار الطاقة في بعض الأقطار، والإغراق. وطرحت فكرة أن يقوم الاتحاد بالعمل بجهود وخطوات تنفيذية لتذليل بعض هذه العوائق من خلال الضغط lobbying كتجمع لأصحاب الأعمال. كما وردت فكرة من الجيل الصناعي الشاب بتوظيف طاقات مبدعة ورعايتها ووضع إطار لعملها على توفير بعض الدراسات والحلول للمشكلات الجماعية؛ والأهم من ذلك لتغيير مفهوم "ماذا سيقدم لي الاتحاد" إلى "ماذا يمكن أن أقدم للاتحاد".&nbsp;\n' +
               'وعلى هامش الاجتماعات نظم الاتحاد العربي للصناعات الهندسية ندوة استمع فيها الحضور لعرضين، الأول بعنوان "دور أصحاب الأعمال في تنمية المهارات والدعم الفني الذي توفره منظمة العمل الدولية في هذا المجال" قدمه خبير منظمة العمل الدولية ILO، والثاني بعنوان "واقع وفرص التبادل التجاري لمنتجات الصناعات الهندسية في الوطن العربي" قدمه خبير منظمة الإسكوا ESCWA.',
-            locale: { connect: { name: 'ar-SY' } }
+            locale_id: 'ar-SY'
           }
         ]
       },

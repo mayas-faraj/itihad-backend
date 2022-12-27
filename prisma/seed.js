@@ -15,6 +15,7 @@ import levelSeed from './seeders/level.js'
 import activitySeed from './seeders/activity.js'
 import newsSeed from './seeders/news.js'
 import eventSeed from './seeders/event.js'
+
 await userSeed();
 await localeSeed();
 await countrySeed();

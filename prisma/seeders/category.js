@@ -9,19 +9,11 @@ export default async function() {
         create: [
           {
             name: 'page',
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: 'صفحة',
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -36,19 +28,11 @@ export default async function() {
         create: [
           {
             name: 'news',
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: 'خبر',
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -63,19 +47,11 @@ export default async function() {
         create: [
           {
             name: 'committee',
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: 'لجنة',
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -90,19 +66,11 @@ export default async function() {
         create: [
           {
             name: 'event',
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: 'حدث',
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -117,19 +85,11 @@ export default async function() {
         create: [
           {
             name: 'activity',
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: 'نشاط',
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }

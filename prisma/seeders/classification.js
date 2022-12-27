@@ -8,19 +8,11 @@ export default async function() {
         create: [
           {
             name: "Organized by AFEI",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "من تنظيم الاتحاد",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -34,19 +26,11 @@ export default async function() {
         create: [
           {
             name: "BOD & GA",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "مجلس الإدارة والجمعية العمومية",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -60,19 +44,11 @@ export default async function() {
         create: [
           {
             name: "Participations",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "مشاركات",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -86,19 +62,11 @@ export default async function() {
         create: [
           {
             name: "Trans-Arab activities",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "أنشطة الهيئات العربية",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }

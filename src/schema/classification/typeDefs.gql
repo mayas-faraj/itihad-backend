@@ -1,0 +1,19 @@
+type Classification {
+  id: Int
+  name: String
+}
+
+type Query {
+  classifications: [Classification]
+}
+
+input ClassificationInput {
+  name: String!
+  locale: String!
+}
+
+type Mutation {
+  createClassification(input: [ClassificationInput!]!): Classification
+  updateClassification(id: Int!, input: [ClassificationInput!]!): Classification
+  deleteClassification(id: Int!): Classification
+}

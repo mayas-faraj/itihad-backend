@@ -8,19 +8,11 @@ export default async function() {
         create: [
           {
             name: "national",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "قطري",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -34,19 +26,11 @@ export default async function() {
         create: [
           {
             name: "arab",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "عربي",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -60,19 +44,11 @@ export default async function() {
         create: [
           {
             name: "national development",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "قطري تنموي",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -86,19 +62,11 @@ export default async function() {
         create: [
           {
             name: "regional",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "اقليمي",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -112,19 +80,11 @@ export default async function() {
         create: [
           {
             name: "regional development",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "اقليمي تنموي",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -138,19 +98,11 @@ export default async function() {
         create: [
           {
             name: "international",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "دولي",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
@@ -164,19 +116,11 @@ export default async function() {
         create: [
           {
             name: "international development",
-            locale: {
-              connect: {
-                name: 'en-US'
-              }
-            }
+            locale_id: 'en-US'
           },
           {
             name: "دولي تنموي",
-            locale: {
-              connect: {
-                name: 'ar-SY'
-              }
-            }
+            locale_id: 'ar-SY'
           }
         ]
       }
