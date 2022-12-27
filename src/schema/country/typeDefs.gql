@@ -1,4 +1,5 @@
 type Country {
+  id: Int
   name: String
 }
 
@@ -6,6 +7,13 @@ type Query {
   countries: [Country]
 }
 
+input CountryInput {
+  name: String!
+  locale: String!
+}
+
 type Mutation {
-  createCountry(name: String!, locale: String!): Boolean
+  createCountry(input: [CountryInput!]!): Country
+  updateCountry(id: Int!, input: [CountryInput!]!): Country
+  deleteCountry(id: Int!): Country
 }

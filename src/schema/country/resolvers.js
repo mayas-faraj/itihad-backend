@@ -28,21 +28,50 @@ const resolvers = {
   Mutation: {
     createCountry: async (_, args)=>{
       const result = await prismaClient.country.create({
-        data: {
+        data: { 
           locale_country: {
-            create: {
-              name: args.name,
+            create: args.input.map(item=>({
+              name: item.name,
               locale: {
                 connect: {
-                  name: args.locale
+                  name: item.locale
                 }
               }
-            }
+            }))
           }
         }
       });
-      
-      return result.id!=null;
+      return result;
+    },
+    updateCountry: async (_, args, __, ___)=>{
+      const result = await prismaClient.country.update({
+        where: {
+          id: args.id
+        },
+        data: { 
+          locale_country: {
+            update: args.input.map(item=>({
+                where: {
+                  locale: {
+                   name: item.locale
+                  }
+                },
+                data: {
+                  name: item.name
+                }
+            }))
+          }
+        }
+      });
+      return result;
+    },
+    deleteCountry: async (_, args)=>{
+      const result = await prismaClient.country.delete({
+        where: {
+          id: args.id
+        }
+      });
+      return result;
     }
   }
 };

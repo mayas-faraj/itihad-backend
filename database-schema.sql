@@ -27,12 +27,10 @@ CREATE TABLE token (
 );
 
 CREATE TABLE locale (
-	id INT AUTO_INCREMENT,
-	name CHAR(5),
+	id CHAR(5),
 	currency_symbol VARCHAR(10),
 	currency_rate FLOAT DEFAULT 1,
 	date_format VARCHAR(20),
-	UNIQUE (name),
 	UNIQUE (currency_symbol),
 	PRIMARY KEY (id)
 );
@@ -45,11 +43,12 @@ CREATE TABLE country (
 CREATE TABLE locale_country (
   id INT AUTO_INCREMENT,
   country_id INT NOT NULL,
-  locale_id INT NOT NULL,
-  name VARCHAR(100) NOT NULL,
+  locale_id CHAR(5) NOT NULL,
+  name VARCHAR(30) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (country_id) REFERENCES country(id) ON DELETE CASCADE,
-  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE 
+  FOREIGN KEY (locale_id) REFERENCES locale(id) ON DELETE CASCADE,
+  UNIQUE (locale_id, name)
 );
 
 CREATE TABLE category (
@@ -65,7 +64,7 @@ CREATE TABLE category (
 CREATE TABLE locale_category (
   id INT AUTO_INCREMENT,
   category_id INT NOT NULL,
-  locale_id INT NOT NULL,
+  locale_id CHAR(5) NOT NULL,
   name VARCHAR(100) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (category_id) REFERENCES category(id) ON DELETE CASCADE,
@@ -74,7 +73,7 @@ CREATE TABLE locale_category (
 
 CREATE TABLE type (
   id INT AUTO_INCREMENT,
-  name VARCHAR(100) NOT NULL,
+  name VARCHAR(50) NOT NULL,
   PRIMARY KEY (id),
   UNIQUE (name)
 );
@@ -106,7 +105,7 @@ CREATE TABLE post (
 CREATE TABLE locale_post (
   id INT AUTO_INCREMENT,
   post_id INT NOT NULL,
-  locale_id INT NOT NULL,
+  locale_id CHAR(5) NOT NULL,
 	title VARCHAR(200) NOT NULL,
   excerpt VARCHAR(1500),
   content text,
@@ -124,7 +123,7 @@ CREATE TABLE level (
 CREATE TABLE locale_level (
   id INT AUTO_INCREMENT,
   level_id INT NOT NULL,
-  locale_id INT NOT NULL,
+  locale_id CHAR(5) NOT NULL,
   name VARCHAR(100) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (level_id) REFERENCES level(id) ON DELETE CASCADE,
@@ -139,7 +138,7 @@ CREATE TABLE classification (
 CREATE TABLE locale_classification (
   id INT AUTO_INCREMENT,
   classification_id INT NOT NULL,
-  locale_id INT NOT NULL,
+  locale_id CHAR(5) NOT NULL,
   name VARCHAR(100) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (classification_id) REFERENCES classification(id) ON DELETE CASCADE,
@@ -158,7 +157,7 @@ CREATE TABLE post_image (
 
 CREATE TABLE locale_post_image (
 	id INT AUTO_INCREMENT,
-	locale_id INT NOT NULL,
+	locale_id CHAR(5) NOT NULL,
 	post_image_id INT NOT NULL,
 	title VARCHAR(100),
 	FOREIGN KEY (post_image_id) REFERENCES post_image(id) ON DELETE CASCADE,
@@ -211,7 +210,7 @@ CREATE TABLE member (
 
 CREATE TABLE locale_member (
 	id INT AUTO_INCREMENT,
-	locale_id INT NOT NULL,
+	locale_id CHAR(5) NOT NULL,
 	member_id INT NOT NULL,
 	name VARCHAR(100) NOT NULL,
   excerpt VARCHAR(1000),
@@ -239,7 +238,7 @@ CREATE TABLE company (
 
 CREATE TABLE locale_company (
 	id INT AUTO_INCREMENT,
-	locale_id INT NOT NULL,
+	locale_id CHAR(5) NOT NULL,
 	company_id INT NOT NULL,
 	name VARCHAR(100) NOT NULL,
   excerpt VARCHAR(2000),
@@ -272,7 +271,7 @@ CREATE TABLE menu_item (
 CREATE TABLE locale_menu_item (
   id INT AUTO_INCREMENT,
   menu_item_id INT NOT NULL,
-  locale_id INT NOT NULL,
+  locale_id CHAR(5) NOT NULL,
 	title VARCHAR(200) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (menu_item_id) REFERENCES menu_item(id) ON DELETE CASCADE,
