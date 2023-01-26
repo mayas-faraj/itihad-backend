@@ -16,11 +16,16 @@ input CategoryInput {
   img_src: String
   img_alt: String
   is_disabled: Int
+  locales: Locales[!]!
+}
+
+input Locales {
+  name: String!
   locale: String!
 }
 
 type Mutation {
-  createCategory(input: [CategoryInput!]!): Category
+  createCategory(input: CategoryInput): Category
   updateCategory(id: Int!, input: [CategoryInput!]!): Category
   deleteCategory(id: Int!): Category
 }

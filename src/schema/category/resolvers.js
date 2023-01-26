@@ -27,11 +27,16 @@ const resolvers = {
     createCategory: async (_, args)=>{
       const result = await prismaClient.category.create({
         data: { 
+          slug: args.input.slug,
+          img_src: args.input.img_src,
+          img_alt: args.input.img_alt,
           locale_category: {
-            create: args.input.map(item=>({
-              name: item.name,
-              locale_id: item.locale
-            }))
+            create: args.input.locales.map(
+              locale => ({
+                name: locale.name,
+                locale: locale.locale
+              })
+            )
           }
         }
       });
