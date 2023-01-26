@@ -1,0 +1,27 @@
+type User {
+  user_login: String!
+  user_name: String
+  email: String
+  password: String
+  is_disabled: Int
+  created_on: String
+}
+
+type Query {
+  users: [User]
+  adminUsers: [User]
+}
+
+input UserInput {
+  user_login: String!
+  user_name: String
+  email: String
+  password: String
+}
+
+type Mutation {
+  createUser(input: UserInput): User
+  createAdminUser(input: UserInput): User
+  updateUser(userLogin: String!, input: UserInput): User
+  deleteUser(userLogin: String!): User
+}

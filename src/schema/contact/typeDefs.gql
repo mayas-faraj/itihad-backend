@@ -1,0 +1,23 @@
+type Contact {
+  name: String
+  icon: String
+  link: String
+  is_social: Int
+}
+
+type Query {
+  contacts: [Contact]
+}
+
+input ContactInput {
+  name: String
+  icon: String
+  link: String
+  is_social: Int
+}
+
+type Mutation {
+  createContact(input: ContactInput): Contact
+  updateContact(name: String!, input: ContactInput): Contact
+  deleteContact(name: String!): Contact
+}

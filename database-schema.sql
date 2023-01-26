@@ -54,8 +54,8 @@ CREATE TABLE locale_country (
 CREATE TABLE category (
   id INT AUTO_INCREMENT,
   slug VARCHAR(100) NOT NULL,
-	img_src VARCHAR(255),
-	img_alt VARCHAR(80),
+	image_src VARCHAR(255),
+	image_alt VARCHAR(80),
   is_disabled INT DEFAULT 0,
   PRIMARY KEY (id),
   UNIQUE (slug)
@@ -152,8 +152,8 @@ CREATE TABLE locale_classification (
 
 CREATE TABLE post_image (
 	id INT AUTO_INCREMENT,
-	img_src VARCHAR(255) NOT NULL,
-	img_alt VARCHAR(80) NOT NULL,
+	image_src VARCHAR(255) NOT NULL,
+	image_alt VARCHAR(80) NOT NULL,
 	post_id INT,
 	PRIMARY KEY (id),
 	FOREIGN KEY (post_id) REFERENCES post (id) ON DELETE CASCADE
@@ -288,7 +288,7 @@ CREATE TABLE locale_menu_item (
 
 CREATE TABLE contact (
 	id INT AUTO_INCREMENT,
-	name VARCHAR(200),
+	name VARCHAR(200) NOT NULL,
 	icon VARCHAR(100),
 	link VARCHAR(250),
 	is_social INT DEFAULT 0,

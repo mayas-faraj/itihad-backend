@@ -1,0 +1,46 @@
+type Query {
+  companies(take: Int, skip: Int): [Company]
+  companiesEnabled(take: Int, skip: Int): [Company]
+}
+
+type Mutation {
+  createCompany(input: CompanyInput): Company
+  updateCompany(id: Int!, input: CompanyInput): Company
+  deleteCompany(id: Int!): Company
+}
+
+type Company {
+	id: Int
+	name: String
+	excerpt: String
+	representer: String
+	tel: String
+	fax: String
+	email: String
+	website: String
+	address: String
+	country: String
+	is_disabled: Int
+	logo_src: String
+}
+
+input CompanyInput {
+	tel: String
+	fax: String
+	email: String
+	website: String
+	address: String
+	country_id: Int
+	display_order: Int
+	logo_src: String
+  locales: [LocaleCompanyInput!]!
+}
+
+input LocaleCompanyInput {
+	name: String
+	excerpt: String
+	representer: String
+	locale: String
+}
+
+  

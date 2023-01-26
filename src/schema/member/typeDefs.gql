@@ -1,0 +1,48 @@
+type Query {
+  members(take: Int, skip: Int): [Member]
+  membersEnabled(take: Int, skip: Int): [Member]
+}
+
+type Mutation {
+  createMember(input: MemberInput): Member
+  updateMember(id: Int!, input: MemberInput): Member
+  deleteMember(id: Int!): Member
+}
+
+type Member {
+	id: Int
+	name: String
+	excerpt: String
+	company: String
+	position: String
+	tel: String
+	fax: String
+	email: String
+	website: String
+	address: String
+	country: String
+	is_disabled: Int
+	image_src: String
+}
+
+input MemberInput {
+	tel: String
+	fax: String
+	email: String
+	website: String
+	address: String
+	country_id: Int
+	display_order: Int
+	image_src: String
+  locales: [LocaleMemberInput!]!
+}
+
+input LocaleMemberInput {
+	name: String
+	excerpt: String
+	company: String
+	position: String
+	locale: String
+}
+
+  

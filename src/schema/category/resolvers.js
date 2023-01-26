@@ -22,57 +22,6 @@ const resolvers = {
         return item;
       });
     },
-  },
-  Mutation: {
-    createCategory: async (_, args)=>{
-      const result = await prismaClient.category.create({
-        data: { 
-          locale_category: {
-            create: args.input.map(item=>({
-              name: item.name,
-              locale_id: item.locale
-            }))
-          }
-        }
-      });
-      return result;
-    },
-    updateCategory: async (_, args, __, ___)=>{
-      const result = await prismaClient.category.update({
-        where: {
-          id: args.id
-        },
-        data: { 
-          locale_category: {
-            upsert: args.input.map(item=>({
-                where: {
-                  locale_id_category_id: {
-                    locale_id: item.locale,
-                    category_id: args.id
-                  }
-                },
-                update: {
-                  name: item.name
-                },
-                create: {
-                  name: item.name,
-                  locale_id: item.locale
-                }
-            }))
-          }
-        }
-      });
-      console.log(result);
-      return result;
-    },
-    deleteCategory: async (_, args)=>{
-      const result = await prismaClient.category.delete({
-        where: {
-          id: args.id
-        }
-      });
-      return result;
-    }
   }
 };
 

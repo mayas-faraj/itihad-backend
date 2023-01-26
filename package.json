@@ -24,13 +24,13 @@
     "@apollo/server": "^4.2.2",
     "@graphql-tools/load-files": "^6.6.1",
     "@graphql-tools/merge": "^8.3.14",
-    "@prisma/client": "^4.7.1",
     "graphql": "^16.6.0",
     "path": "^0.12.7",
     "url": "^0.11.0"
   },
   "devDependencies": {
+    "@prisma/client": "^4.8.0",
     "nodemon": "^2.0.20",
-    "prisma": "^4.7.1"
+    "prisma": "^4.8.0"
   }
 }

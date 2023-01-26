@@ -1,0 +1,78 @@
+type Query {
+  postsByCategory(category: String!, take: Int, skip: Int): [Post]
+  postsByCategoryEnabled(category: String!, take: Int, skip: Int): [Post]
+  postBySlug(slug: String!): Post
+}
+
+type Mutation {
+  createPost(input: PostInput): Post
+  updatePost(id: Int!, input: PostInput): Post
+  deletePost(id: Int!): Post
+  createPostImage(postId: Int!, input: PostImageInput): PostImage
+  updatePostImage(id: Int!, input: PostImageInput): PostImage
+  deletePostImage(id: Int!): PostImage
+}
+
+type Post {
+	id: Int
+  category: String
+  type: String
+  slug: String
+  title: String
+  excerpt: String
+  content: String
+	description: String
+  button_link: String
+  button_text: String
+	feature_image_src: String
+	feature_image_alt: String
+	og_image_src: String
+  created_on:  String
+  created_by:  String
+  updated_by: String
+  read_count: Int
+	is_disabled: Int
+  images: [PostImage]
+}
+
+type PostImage {
+  id: Int
+  title: String
+  image_src: String
+  image_alt: String
+}
+
+input PostInput {
+  category: String
+  type: String
+  slug: String
+	description: String
+  button_link: String
+	feature_image_src: String
+	feature_image_alt: String
+	og_image_src: String
+  created_by:  String
+  locales: [LocalePost!]!
+}
+
+input LocalePost {
+  title: String
+  excerpt: String
+  content: String
+  button_text: String
+  locale: String!
+}
+
+input PostImageInput {
+  image_src: String
+  image_alt: String
+  locales: [LocalePostImage]
+}
+
+input LocalePostImage {
+  title: String
+  locale: String
+}
+
+
+  

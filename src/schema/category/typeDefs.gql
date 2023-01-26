@@ -10,17 +10,3 @@ type Category {
 type Query {
   categories: [Category]
 }
-
-input CategoryInput {
-  slug: String!
-  img_src: String
-  img_alt: String
-  is_disabled: Int
-  locale: String!
-}
-
-type Mutation {
-  createCategory(input: [CategoryInput!]!): Category
-  updateCategory(id: Int!, input: [CategoryInput!]!): Category
-  deleteCategory(id: Int!): Category
-}

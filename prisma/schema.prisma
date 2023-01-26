@@ -17,8 +17,8 @@ model country {
 model category {
   id              Int               @id @default(autoincrement())
   slug            String            @unique(map: "slug") @db.VarChar(100)
-  img_src         String?           @db.VarChar(255)
-  img_alt         String?           @db.VarChar(80)
+  image_src       String?           @db.VarChar(255)
+  image_alt       String?           @db.VarChar(80)
   is_disabled     Int?              @default(0)
   locale_category locale_category[]
   post            post[]
@@ -43,7 +43,7 @@ model company {
 
 model contact {
   id        Int     @id @default(autoincrement())
-  name      String? @unique(map: "name") @db.VarChar(200)
+  name      String  @unique(map: "name") @db.VarChar(200)
   icon      String? @db.VarChar(100)
   link      String? @db.VarChar(250)
   is_social Int?    @default(0)
@@ -121,7 +121,7 @@ model locale_member {
   locale_id String  @db.Char(5)
   member_id Int
   name      String  @db.VarChar(100)
-  excerpt   String? @db.VarChar(1000)
+  excerpt   String? @db.VarChar(2000)
   company   String? @db.VarChar(100)
   position  String? @db.VarChar(100)
   member    member  @relation(fields: [member_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_member_ibfk_1")
@@ -255,8 +255,8 @@ model post {
 
 model post_image {
   id                Int                 @id @default(autoincrement())
-  img_src           String              @db.VarChar(255)
-  img_alt           String              @db.VarChar(80)
+  image_src         String              @db.VarChar(255)
+  image_alt         String              @db.VarChar(80)
   post_id           Int?
   locale_post_image locale_post_image[]
   post              post?               @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "post_image_ibfk_1")

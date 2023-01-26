@@ -1,0 +1,77 @@
+type Query {
+  events(take: Int, skip: Int): [Event]
+  eventsEnabled(take: Int, skip: Int): [Event]
+  eventBySlug(slug: String!): Event
+}
+
+type Mutation {
+  createEvent(input: EventInput): Event
+  updateEvent(id: Int!, input: EventInput): Event
+  deleteEvent(id: Int!): Event
+  createEventImage(eventId: Int!, input: EventImageInput): EventImage
+  updateEventImage(id: Int!, input: EventImageInput): EventImage
+  deleteEventImage(id: Int!): EventImage
+}
+
+type Event {
+	id: Int
+  type: String
+  slug: String
+  title: String
+  excerpt: String
+  content: String
+	description: String
+  button_link: String
+  button_text: String
+	feature_image_src: String
+	feature_image_alt: String
+	og_image_src: String
+  created_on:  String
+  created_by:  String
+  updated_by: String
+  read_count: Int
+	is_disabled: Int
+  images: [EventImage]
+}
+
+type EventImage {
+  id: Int
+  title: String
+  image_src: String
+  image_alt: String
+}
+
+input EventInput {
+  category: String
+  type: String
+  slug: String
+	description: String
+  button_link: String
+	feature_image_src: String
+	feature_image_alt: String
+	og_image_src: String
+  created_by:  String
+  locales: [LocaleEvent!]!
+}
+
+input LocaleEvent {
+  title: String
+  excerpt: String
+  content: String
+  button_text: String
+  locale: String!
+}
+
+input EventImageInput {
+  image_src: String
+  image_alt: String
+  locales: [LocaleEventImage]
+}
+
+input LocaleEventImage {
+  title: String
+  locale: String
+}
+
+
+  
