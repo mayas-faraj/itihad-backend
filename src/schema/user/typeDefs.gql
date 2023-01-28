@@ -13,7 +13,7 @@ type Query {
 }
 
 input UserInput {
-  user_login: String!
+  user_login: String
   user_name: String
   email: String
   password: String

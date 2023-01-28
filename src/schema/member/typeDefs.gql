@@ -34,7 +34,7 @@ input MemberInput {
 	country_id: Int
 	display_order: Int
 	image_src: String
-  locales: [LocaleMemberInput!]!
+  locales: [LocaleMemberInput]
 }
 
 input LocaleMemberInput {

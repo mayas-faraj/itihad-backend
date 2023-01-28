@@ -33,7 +33,7 @@ input CompanyInput {
 	country_id: Int
 	display_order: Int
 	logo_src: String
-  locales: [LocaleCompanyInput!]!
+  	locales: [LocaleCompanyInput]
 }
 
 input LocaleCompanyInput {

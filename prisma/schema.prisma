@@ -112,7 +112,8 @@ model locale_country {
   country    country @relation(fields: [country_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_country_ibfk_1")
   locale     locale  @relation(fields: [locale_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "locale_country_ibfk_2")
 
-  @@unique([locale_id, country_id], map: "locale_id")
+  @@unique([locale_id, country_id], map: "locale_id_country_id")
+  @@unique([locale_id, name], map: "locale_id_name")
   @@index([country_id], map: "country_id")
 }
 
@@ -295,7 +296,7 @@ model user {
   user_login                 String    @unique(map: "user_login") @db.VarChar(50)
   user_name                  String?   @db.VarChar(50)
   email                      String?   @db.VarChar(50)
-  password                   String    @db.VarChar(50)
+  password                   String    @db.VarChar(200)
   is_admin                   Int?      @default(0)
   is_disabled                Int?      @default(0)
   created_on                 DateTime? @default(now()) @db.DateTime(0)

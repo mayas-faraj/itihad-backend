@@ -46,12 +46,16 @@ const resolvers = {
           locale_country: {
             upsert: args.input.map(item=>({
                 where: {
-                  locate_id_country_id: {
+                  locale_id_country_id: {
                     locale_id: item.locale,
                     country_id: args.id
                   }
                 },
-                data: {
+                update: {
+                  name: item.name
+                },
+                create: {
+                  locale_id: item.locale,
                   name: item.name
                 }
             }))

@@ -1,16 +1,16 @@
 type Query {
-  events(take: Int, skip: Int): [Event]
-  eventsEnabled(take: Int, skip: Int): [Event]
-  eventBySlug(slug: String!): Event
+  activities(take: Int, skip: Int): [Activitiy]
+  activitiesEnabled(take: Int, skip: Int): [Activitiy]
+  activityBySlug(slug: String!): Activitiy
 }
 
 type Mutation {
-  createEvent(input: EventInput): Event
-  updateEvent(id: Int!, input: EventInput): Event
-  deleteEvent(id: Int!): Event
+  createActivitiy(input: ActivitiyInput): Activitiy
+  updateActivitiy(id: Int!, input: ActivitiyInput): Activitiy
+  deleteActivitiy(id: Int!): Activitiy
 }
 
-type Event {
+type Activitiy {
 	id: Int
   type: String
   slug: String
@@ -28,19 +28,21 @@ type Event {
   updated_by: String
   read_count: Int
 	is_disabled: Int
+  level: String
+  classification: String
   started_on: String
   end_on: String
-  images: [EventImage]
+  images: [ActivitiyImage]
 }
 
-type EventImage {
+type ActivitiyImage {
   id: Int
   title: String
   image_src: String
   image_alt: String
 }
 
-input EventInput {
+input ActivitiyInput {
   type: String
   slug: String
 	description: String
@@ -51,12 +53,14 @@ input EventInput {
   "m/d/yyyy hh:MM:ss"
   created_by:  String
   "m/d/yyyy hh:MM:ss"
+  level_id: Int
+  classification_id: Int
   started_on: String
   end_on: String
-  locales: [LocaleEvent!]!
+  locales: [LocaleActivitiy!]!
 }
 
-input LocaleEvent {
+input LocaleActivitiy {
   title: String
   excerpt: String
   content: String
@@ -64,13 +68,13 @@ input LocaleEvent {
   locale: String!
 }
 
-input EventImageInput {
+input ActivitiyImageInput {
   image_src: String
   image_alt: String
-  locales: [LocaleEventImage]
+  locales: [LocaleActivitiyImage]
 }
 
-input LocaleEventImage {
+input LocaleActivitiyImage {
   title: String
   locale: String
 }

@@ -3,7 +3,7 @@ const prismaClient = new Prisma().getPrismaClient();
 
 const resolvers = {
   Query: {
-    events: async (_, args, context)=>{
+    activities: async (_, args, context)=>{
       const result = await prismaClient.post.findMany({
         skip: args.skip,
         take: args.take,
@@ -11,7 +11,7 @@ const resolvers = {
           category: {
             locale_category: {
               some: {
-                name: "event"
+                name: "activity"
               }
             }
           }
@@ -23,7 +23,7 @@ const resolvers = {
           locale_post: {
             where: {
               locale_id: context.language 
-            },
+            }
           }
         }
       });
@@ -40,16 +40,34 @@ const resolvers = {
         return item;
       });
     },
-    eventBySlug: async (_, args, context)=>{
+    activityBySlug: async (_, args, context)=>{
       const result = await prismaClient.post.findUnique({
         where: {
           slug: args.slug
         },
         include: {
-          event: {
+          activity: {
             select: {
               started_on: true,
-              end_on: true
+              end_on: true,
+              level: {
+                include: {
+                  locale_level: {
+                    where: {
+                      locale_id: context.language 
+                    }
+                  }
+                }
+              },
+              classification: {
+                include: {
+                  locale_classification: {
+                    where: {
+                      locale_id: context.language 
+                    }
+                  }
+                }
+              },
             }
           },
           locale_post: {
@@ -76,9 +94,19 @@ const resolvers = {
 
       const localeProps=["title", "excerpt", "content", "button_text"];
       result.type=result.type?.name;
-      if(result.event!=undefined) {
-        result.started_on=result.event.started_on;
-        result.end_on=result.event.end_on;
+
+
+      if(result.activity!=undefined) {
+        result.started_on=result.activity.started_on;
+        result.end_on=result.activity.end_on;
+
+        if(result.activity.level!=undefined && result.activity.level.locale_level!=undefined && result.activity.level.locale_level.length>0) {
+          result.level=result.activity.level.locale_level[0].name;
+        }
+
+        if(result.activity.classification!=undefined && result.activity.classification.locale_classification!=undefined && result.activity.classification.locale_classification.length>0) {
+          result.classification=result.activity.classification.locale_classification[0].name;
+        }
       }
 
       if(result.post_image!=undefined)
@@ -100,12 +128,12 @@ const resolvers = {
     }
   },
   Mutation: {
-    createEvent: async (_, args) => {
+    createActivitiy: async (_, args) => {
       const result = await prismaClient.post.create({
         data: {
           category: {
             connect: {
-              slug: "event"
+              slug: "activity"
             }
           },
           type: {
@@ -133,17 +161,19 @@ const resolvers = {
               locale_id: item.locale
             }))
           },
-          event: {
+          activity: {
             create: {
               started_on: new Date(args.input.started_on),
-              end_on: new Date(args.input.end_on)
+              end_on: new Date(args.input.end_on),
+              level_id: args.input.level_id,
+              classification_id: args.input.classification_id
             }
           }
         }
       });
       return result;
     },
-    updateEvent: async (_, args) => {
+    updateActivitiy: async (_, args) => {
       const result = await prismaClient.post.update({
         where: {
           id: args.id
@@ -183,10 +213,12 @@ const resolvers = {
               }
             }))
           },
-          event: {
+          activity: {
             update: {
                 started_on: args.input.started_on ? new Date(args.input.started_on) : undefined,
-                end_on: args.input.end_on ? new Date(args.input.end_on) : undefined
+                end_on: args.input.end_on ? new Date(args.input.end_on) : undefined,
+                level_id: args.input.level_id,
+                classification_id: args.input.classification_id
               }
            }
         }
@@ -194,7 +226,7 @@ const resolvers = {
 
       return result;
     },
-    deleteEvent: async (_, args) => {
+    deleteActivitiy: async (_, args) => {
       const result = await prismaClient.post.delete({
         where: {
           id: args.id

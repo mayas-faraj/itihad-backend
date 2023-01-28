@@ -1,4 +1,5 @@
 import { Prisma } from '../../prismaClient.js'
+import { getPasswordHash } from '../../password-hash.js'
 const prismaClient = new Prisma().getPrismaClient();
 
 const resolvers = {
@@ -20,7 +21,7 @@ const resolvers = {
         user_login: args.input.user_login,
         user_name: args.input.user_name,
         email: args.input.email,
-        password: args.input.password,
+        password: getPasswordHash(args.input.password),
         is_admin: 0
       }
     }),
@@ -29,7 +30,7 @@ const resolvers = {
         user_login: args.input.user_login,
         user_name: args.input.user_name,
         email: args.input.email,
-        password: args.input.password,
+        password: getPasswordHash(args.input.password),
         is_admin: 1
       }
     }),
@@ -41,7 +42,7 @@ const resolvers = {
         user_login: args.input.user_login,
         user_name: args.input.user_name,
         email: args.input.email,
-        password: args.input.password,
+        password: args.input.password ? getPasswordHash(args.input.password) : undefined,
         is_disabled: args.input.is_disabled
       }
     }),

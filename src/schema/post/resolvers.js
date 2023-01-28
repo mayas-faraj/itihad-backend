@@ -24,31 +24,12 @@ const resolvers = {
             where: {
               locale_id: context.language 
             }
-          },
-          category: {
-            include: {
-              locale_category: {
-                where: {
-                  locale_id: context.language 
-                }
-              }
-            }
-          },
-          type: {
-            select: {
-              name: true
-            }
-          }
+          }        
         }
       });
       const localeProps=["title", "excerpt", "content", "button_text"];
 
       return result.map(item=>{
-        item.type=item.type?.name;
-        if(item.category!=undefined && item.category.locale_category!=undefined && item.category.locale_category.length>0) {
-            item.category=item.category.locale_category[0].name;
-        }
-
         localeProps.forEach(prop=>{
           if(item.locale_post!=undefined && item.locale_post.length>0) {
             item[prop]=item.locale_post[0][prop];
@@ -87,31 +68,12 @@ const resolvers = {
             where: {
               locale_id: context.language 
             }
-          },
-          category: {
-            include: {
-              locale_category: {
-                where: {
-                  locale_id: context.language 
-                }
-              }
-            }
-          },
-          type: {
-            select: {
-              name: true
-            }
           }
         }
       });
       const localeProps=["title", "excerpt", "content", "button_text"];
 
       return result.map(item=>{
-        item.type=item.type?.name;
-        if(item.category!=undefined && item.category.locale_category!=undefined && item.category.locale_category.length>0) {
-            item.category=item.category.locale_category[0].name;
-        }
-
         localeProps.forEach(prop=>{
           if(item.locale_post!=undefined && item.locale_post.length>0) {
             item[prop]=item.locale_post[0][prop];
@@ -179,13 +141,7 @@ const resolvers = {
           delete result.locale_post[0][prop];
         }
       })
-      
-      if(result.post_image!=undefined)
-        for(let i=0; i<result.post_image.length; i++)
-          if(result.post_image[i].locale_post_image!=undefined && result.post_image[i].locale_post_image.length>0) {
-            result.post_image[i].title=result.post_image[i].locale_post_image[0].title;
-            delete result.post_image[i].locale_post_image;
-          }
+
       return result;
     }
   },
