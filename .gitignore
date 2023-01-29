@@ -1,4 +1,5 @@
 mysql
+uploads
 node_modules
 *.swp
 .env
